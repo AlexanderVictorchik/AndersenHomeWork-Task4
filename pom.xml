@@ -12,6 +12,7 @@
     <modules>
         <module>soap-server</module>
         <module>soap-client</module>
+        <module>Router</module>
     </modules>
 
     <properties>
