@@ -15,17 +15,17 @@ public class CreateTeamCommand extends OperationCommand {
 
     @Override
     public void execute(AbsSender absSender, User user, Chat chat, String[] strings) {
-        EmployeeService employeeService = new EmployeeServiceImplService()
-                .getPort(EmployeeService.class);
-
-        logger.info("Invocation of SOAP Server - start.");
-
-//        System.out.println("/create called");
-
-        Employee employee = employeeService.getEmployee("Ivan");
-
-        logger.info("Invocation of SOAP Server - end. Employee's last name: "
-                + employee.getLastName());
+//        EmployeeService employeeService = new EmployeeServiceImplService()
+//                .getPort(EmployeeService.class);
+//
+//        logger.info("Invocation of SOAP Server - start.");
+//
+////        System.out.println("/create called");
+//
+//        Employee employee = employeeService.getEmployee("Ivan");
+//
+//        logger.info("Invocation of SOAP Server - end. Employee's last name: "
+//                + employee.getLastName());
 //        System.out.println(employee.getLastName());
     }
 }

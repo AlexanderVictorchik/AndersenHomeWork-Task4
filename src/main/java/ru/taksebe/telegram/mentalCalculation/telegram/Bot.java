@@ -84,6 +84,9 @@ public final class Bot extends TelegramLongPollingCommandBot {
 
         register(new CreateTeamCommand("create", "Create team"));
         logger.debug("Command CreateTeam created");
+
+        register(new CommandCommand("command", "Command"));
+        logger.debug("Command command");
     }
 
     @Override

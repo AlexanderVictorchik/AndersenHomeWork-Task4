@@ -2452,3 +2452,1576 @@ Caused by: java.net.ConnectException: Connection refused (Connection refused)
 2021-11-06 18:57:15 INFO  Bot:82 - Бот создан!
 2021-11-06 18:57:21 INFO  CreateTeamCommand:21 - Invocation of SOAP Server - start.
 2021-11-06 18:57:21 INFO  CreateTeamCommand:27 - Invocation of SOAP Server - end. Employee's last name: Ivanov
+2021-11-06 19:30:49 INFO  ArithmeticServiceTest:30 - Начинаем создание настроек
+2021-11-06 19:30:49 INFO  ArithmeticServiceTest:56 - Не удалось создать настройки для следующих пар значений:
+2021-11-06 19:30:49 INFO  ArithmeticServiceTest:1259 - 1 и 1
+2021-11-06 19:30:49 INFO  ArithmeticServiceTest:1259 - 2 и 2
+2021-11-06 19:30:49 INFO  ArithmeticServiceTest:1259 - 3 и 3
+2021-11-06 19:30:49 INFO  ArithmeticServiceTest:1259 - 4 и 4
+2021-11-06 19:30:49 INFO  ArithmeticServiceTest:1259 - 5 и 5
+2021-11-06 19:30:49 INFO  ArithmeticServiceTest:1259 - 6 и 6
+2021-11-06 19:30:49 INFO  ArithmeticServiceTest:1259 - 7 и 7
+2021-11-06 19:30:49 INFO  ArithmeticServiceTest:1259 - 8 и 8
+2021-11-06 19:30:49 INFO  ArithmeticServiceTest:1259 - 9 и 9
+2021-11-06 19:30:49 INFO  ArithmeticServiceTest:1259 - 10 и 10
+2021-11-06 19:30:49 INFO  ArithmeticServiceTest:1259 - 11 и 11
+2021-11-06 19:30:49 INFO  ArithmeticServiceTest:1259 - 12 и 12
+2021-11-06 19:30:49 INFO  ArithmeticServiceTest:1259 - 13 и 13
+2021-11-06 19:30:49 INFO  ArithmeticServiceTest:1259 - 14 и 14
+2021-11-06 19:30:49 INFO  ArithmeticServiceTest:1259 - 15 и 15
+2021-11-06 19:30:49 INFO  ArithmeticServiceTest:1259 - 16 и 16
+2021-11-06 19:30:49 INFO  ArithmeticServiceTest:1259 - 17 и 17
+2021-11-06 19:30:49 INFO  ArithmeticServiceTest:1259 - 18 и 18
+2021-11-06 19:30:49 INFO  ArithmeticServiceTest:1259 - 19 и 19
+2021-11-06 19:30:49 INFO  ArithmeticServiceTest:1259 - 20 и 20
+2021-11-06 19:30:49 INFO  ArithmeticServiceTest:33 - Начинаем проверку формирования файлов
+2021-11-06 19:30:49 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 2
+2021-11-06 19:30:50 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 2 прошла успешно
+2021-11-06 19:30:50 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 3
+2021-11-06 19:30:50 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 3 прошла успешно
+2021-11-06 19:30:50 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 4
+2021-11-06 19:30:50 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 4 прошла успешно
+2021-11-06 19:30:50 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 5
+2021-11-06 19:30:50 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 5 прошла успешно
+2021-11-06 19:30:50 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 6
+2021-11-06 19:30:50 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 6 прошла успешно
+2021-11-06 19:30:50 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 7
+2021-11-06 19:30:50 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 7 прошла успешно
+2021-11-06 19:30:50 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 8
+2021-11-06 19:30:50 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 8 прошла успешно
+2021-11-06 19:30:50 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 9
+2021-11-06 19:30:50 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 9 прошла успешно
+2021-11-06 19:30:50 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 10
+2021-11-06 19:30:50 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 10 прошла успешно
+2021-11-06 19:30:50 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 11
+2021-11-06 19:30:50 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 11 прошла успешно
+2021-11-06 19:30:50 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 12
+2021-11-06 19:30:50 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 12 прошла успешно
+2021-11-06 19:30:50 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 13
+2021-11-06 19:30:50 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 13 прошла успешно
+2021-11-06 19:30:50 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 14
+2021-11-06 19:30:50 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 14 прошла успешно
+2021-11-06 19:30:50 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 15
+2021-11-06 19:30:51 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 15 прошла успешно
+2021-11-06 19:30:51 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 16
+2021-11-06 19:30:51 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 16 прошла успешно
+2021-11-06 19:30:51 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 17
+2021-11-06 19:30:51 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 17 прошла успешно
+2021-11-06 19:30:51 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 18
+2021-11-06 19:30:51 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 18 прошла успешно
+2021-11-06 19:30:51 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 19
+2021-11-06 19:30:51 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 19 прошла успешно
+2021-11-06 19:30:51 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 20
+2021-11-06 19:30:51 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 20 прошла успешно
+2021-11-06 19:30:51 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 2
+2021-11-06 19:30:51 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 2 прошла успешно
+2021-11-06 19:30:51 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 3
+2021-11-06 19:30:51 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 3 прошла успешно
+2021-11-06 19:30:51 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 4
+2021-11-06 19:30:51 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 4 прошла успешно
+2021-11-06 19:30:51 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 5
+2021-11-06 19:30:51 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 5 прошла успешно
+2021-11-06 19:30:51 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 6
+2021-11-06 19:30:51 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 6 прошла успешно
+2021-11-06 19:30:51 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 7
+2021-11-06 19:30:51 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 7 прошла успешно
+2021-11-06 19:30:51 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 8
+2021-11-06 19:30:51 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 8 прошла успешно
+2021-11-06 19:30:51 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 9
+2021-11-06 19:30:51 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 9 прошла успешно
+2021-11-06 19:30:51 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 10
+2021-11-06 19:30:51 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 10 прошла успешно
+2021-11-06 19:30:51 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 11
+2021-11-06 19:30:51 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 11 прошла успешно
+2021-11-06 19:30:51 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 12
+2021-11-06 19:30:51 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 12 прошла успешно
+2021-11-06 19:30:51 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 13
+2021-11-06 19:30:51 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 13 прошла успешно
+2021-11-06 19:30:51 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 14
+2021-11-06 19:30:51 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 14 прошла успешно
+2021-11-06 19:30:51 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 15
+2021-11-06 19:30:51 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 15 прошла успешно
+2021-11-06 19:30:51 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 16
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 16 прошла успешно
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 17
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 17 прошла успешно
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 18
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 18 прошла успешно
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 19
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 19 прошла успешно
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 20
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 20 прошла успешно
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 3
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 3 прошла успешно
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 3
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 3 прошла успешно
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 4
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 4 прошла успешно
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 5
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 5 прошла успешно
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 6
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 6 прошла успешно
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 7
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 7 прошла успешно
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 8
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 8 прошла успешно
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 9
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 9 прошла успешно
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 10
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 10 прошла успешно
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 11
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 11 прошла успешно
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 12
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 12 прошла успешно
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 13
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 13 прошла успешно
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 14
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 14 прошла успешно
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 15
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 15 прошла успешно
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 16
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 16 прошла успешно
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 17
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 17 прошла успешно
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 18
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 18 прошла успешно
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 19
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 19 прошла успешно
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 20
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 20 прошла успешно
+2021-11-06 19:30:52 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 4
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 4 прошла успешно
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 4
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 4 прошла успешно
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 4
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 4 прошла успешно
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 5
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 5 прошла успешно
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 6
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 6 прошла успешно
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 7
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 7 прошла успешно
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 8
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 8 прошла успешно
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 9
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 9 прошла успешно
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 10
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 10 прошла успешно
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 11
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 11 прошла успешно
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 12
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 12 прошла успешно
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 13
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 13 прошла успешно
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 14
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 14 прошла успешно
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 15
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 15 прошла успешно
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 16
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 16 прошла успешно
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 17
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 17 прошла успешно
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 18
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 18 прошла успешно
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 19
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 19 прошла успешно
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 20
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 20 прошла успешно
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 5
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 5 прошла успешно
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 5
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 5 прошла успешно
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 5
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 5 прошла успешно
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 5
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 5 прошла успешно
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 6
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 6 прошла успешно
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 7
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 7 прошла успешно
+2021-11-06 19:30:53 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 8
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 8 прошла успешно
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 9
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 9 прошла успешно
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 10
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 10 прошла успешно
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 11
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 11 прошла успешно
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 12
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 12 прошла успешно
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 13
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 13 прошла успешно
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 14
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 14 прошла успешно
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 15
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 15 прошла успешно
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 16
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 16 прошла успешно
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 17
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 17 прошла успешно
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 18
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 18 прошла успешно
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 19
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 19 прошла успешно
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 20
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 20 прошла успешно
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 6
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 6 прошла успешно
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 6
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 6 прошла успешно
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 6
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 6 прошла успешно
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 6
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 6 прошла успешно
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 6
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 6 прошла успешно
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 7
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 7 прошла успешно
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 8
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 8 прошла успешно
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 9
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 9 прошла успешно
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 10
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 10 прошла успешно
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 11
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 11 прошла успешно
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 12
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 12 прошла успешно
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 13
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 13 прошла успешно
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 14
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 14 прошла успешно
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 15
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 15 прошла успешно
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 16
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 16 прошла успешно
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 17
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 17 прошла успешно
+2021-11-06 19:30:54 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 18
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 18 прошла успешно
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 19
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 19 прошла успешно
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 20
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 20 прошла успешно
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 7
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 7 прошла успешно
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 7
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 7 прошла успешно
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 7
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 7 прошла успешно
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 7
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 7 прошла успешно
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 7
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 7 прошла успешно
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 7
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 7 прошла успешно
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 8
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 8 прошла успешно
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 9
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 9 прошла успешно
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 10
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 10 прошла успешно
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 11
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 11 прошла успешно
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 12
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 12 прошла успешно
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 13
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 13 прошла успешно
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 14
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 14 прошла успешно
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 15
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 15 прошла успешно
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 16
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 16 прошла успешно
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 17
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 17 прошла успешно
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 18
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 18 прошла успешно
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 19
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 19 прошла успешно
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 20
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 20 прошла успешно
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 8
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 8 прошла успешно
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 8
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 8 прошла успешно
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 8
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 8 прошла успешно
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 8
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 8 прошла успешно
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 8
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 8 прошла успешно
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 8
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 8 прошла успешно
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 8
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 8 прошла успешно
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 9
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 9 прошла успешно
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 10
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 10 прошла успешно
+2021-11-06 19:30:55 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 11
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 11 прошла успешно
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 12
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 12 прошла успешно
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 13
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 13 прошла успешно
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 14
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 14 прошла успешно
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 15
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 15 прошла успешно
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 16
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 16 прошла успешно
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 17
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 17 прошла успешно
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 18
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 18 прошла успешно
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 19
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 19 прошла успешно
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 20
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 20 прошла успешно
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 9
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 9 прошла успешно
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 9
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 9 прошла успешно
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 9
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 9 прошла успешно
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 9
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 9 прошла успешно
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 9
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 9 прошла успешно
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 9
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 9 прошла успешно
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 9
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 9 прошла успешно
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 9
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 9 прошла успешно
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 10
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 10 прошла успешно
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 11
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 11 прошла успешно
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 12
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 12 прошла успешно
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 13
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 13 прошла успешно
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 14
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 14 прошла успешно
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 15
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 15 прошла успешно
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 16
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 16 прошла успешно
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 17
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 17 прошла успешно
+2021-11-06 19:30:56 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 18
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 18 прошла успешно
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 19
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 19 прошла успешно
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 20
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 20 прошла успешно
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 10
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 10 прошла успешно
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 10
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 10 прошла успешно
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 10
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 10 прошла успешно
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 10
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 10 прошла успешно
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 10
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 10 прошла успешно
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 10
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 10 прошла успешно
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 10
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 10 прошла успешно
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 10
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 10 прошла успешно
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 10
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 10 прошла успешно
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 10 - 11
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:86 - Проверка пары значений 10 - 11 прошла успешно
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 10 - 12
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:86 - Проверка пары значений 10 - 12 прошла успешно
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 10 - 13
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:86 - Проверка пары значений 10 - 13 прошла успешно
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 10 - 14
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:86 - Проверка пары значений 10 - 14 прошла успешно
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 10 - 15
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:86 - Проверка пары значений 10 - 15 прошла успешно
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 10 - 16
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:86 - Проверка пары значений 10 - 16 прошла успешно
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 10 - 17
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:86 - Проверка пары значений 10 - 17 прошла успешно
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 10 - 18
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:86 - Проверка пары значений 10 - 18 прошла успешно
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 10 - 19
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:86 - Проверка пары значений 10 - 19 прошла успешно
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 10 - 20
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:86 - Проверка пары значений 10 - 20 прошла успешно
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 11
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 11 прошла успешно
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 11
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 11 прошла успешно
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 11
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 11 прошла успешно
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 11
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 11 прошла успешно
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 11
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 11 прошла успешно
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 11
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 11 прошла успешно
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 11
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 11 прошла успешно
+2021-11-06 19:30:57 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 11
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 11 прошла успешно
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 11
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 11 прошла успешно
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 10 - 11
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:86 - Проверка пары значений 10 - 11 прошла успешно
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 11 - 12
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:86 - Проверка пары значений 11 - 12 прошла успешно
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 11 - 13
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:86 - Проверка пары значений 11 - 13 прошла успешно
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 11 - 14
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:86 - Проверка пары значений 11 - 14 прошла успешно
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 11 - 15
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:86 - Проверка пары значений 11 - 15 прошла успешно
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 11 - 16
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:86 - Проверка пары значений 11 - 16 прошла успешно
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 11 - 17
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:86 - Проверка пары значений 11 - 17 прошла успешно
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 11 - 18
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:86 - Проверка пары значений 11 - 18 прошла успешно
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 11 - 19
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:86 - Проверка пары значений 11 - 19 прошла успешно
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 11 - 20
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:86 - Проверка пары значений 11 - 20 прошла успешно
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 12
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 12 прошла успешно
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 12
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 12 прошла успешно
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 12
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 12 прошла успешно
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 12
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 12 прошла успешно
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 12
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 12 прошла успешно
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 12
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 12 прошла успешно
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 12
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 12 прошла успешно
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 12
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 12 прошла успешно
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 12
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 12 прошла успешно
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 10 - 12
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:86 - Проверка пары значений 10 - 12 прошла успешно
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 11 - 12
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:86 - Проверка пары значений 11 - 12 прошла успешно
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 12 - 13
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:86 - Проверка пары значений 12 - 13 прошла успешно
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 12 - 14
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:86 - Проверка пары значений 12 - 14 прошла успешно
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 12 - 15
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:86 - Проверка пары значений 12 - 15 прошла успешно
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 12 - 16
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:86 - Проверка пары значений 12 - 16 прошла успешно
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 12 - 17
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:86 - Проверка пары значений 12 - 17 прошла успешно
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 12 - 18
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:86 - Проверка пары значений 12 - 18 прошла успешно
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 12 - 19
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:86 - Проверка пары значений 12 - 19 прошла успешно
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 12 - 20
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:86 - Проверка пары значений 12 - 20 прошла успешно
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 13
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 13 прошла успешно
+2021-11-06 19:30:58 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 13
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 13 прошла успешно
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 13
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 13 прошла успешно
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 13
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 13 прошла успешно
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 13
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 13 прошла успешно
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 13
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 13 прошла успешно
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 13
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 13 прошла успешно
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 13
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 13 прошла успешно
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 13
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 13 прошла успешно
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 10 - 13
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:86 - Проверка пары значений 10 - 13 прошла успешно
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 11 - 13
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:86 - Проверка пары значений 11 - 13 прошла успешно
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 12 - 13
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:86 - Проверка пары значений 12 - 13 прошла успешно
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 13 - 14
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:86 - Проверка пары значений 13 - 14 прошла успешно
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 13 - 15
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:86 - Проверка пары значений 13 - 15 прошла успешно
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 13 - 16
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:86 - Проверка пары значений 13 - 16 прошла успешно
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 13 - 17
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:86 - Проверка пары значений 13 - 17 прошла успешно
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 13 - 18
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:86 - Проверка пары значений 13 - 18 прошла успешно
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 13 - 19
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:86 - Проверка пары значений 13 - 19 прошла успешно
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 13 - 20
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:86 - Проверка пары значений 13 - 20 прошла успешно
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 14
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 14 прошла успешно
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 14
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 14 прошла успешно
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 14
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 14 прошла успешно
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 14
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 14 прошла успешно
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 14
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 14 прошла успешно
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 14
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 14 прошла успешно
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 14
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 14 прошла успешно
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 14
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 14 прошла успешно
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 14
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 14 прошла успешно
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 10 - 14
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:86 - Проверка пары значений 10 - 14 прошла успешно
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 11 - 14
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:86 - Проверка пары значений 11 - 14 прошла успешно
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 12 - 14
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:86 - Проверка пары значений 12 - 14 прошла успешно
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 13 - 14
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:86 - Проверка пары значений 13 - 14 прошла успешно
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 14 - 15
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:86 - Проверка пары значений 14 - 15 прошла успешно
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 14 - 16
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:86 - Проверка пары значений 14 - 16 прошла успешно
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 14 - 17
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:86 - Проверка пары значений 14 - 17 прошла успешно
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 14 - 18
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:86 - Проверка пары значений 14 - 18 прошла успешно
+2021-11-06 19:30:59 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 14 - 19
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:86 - Проверка пары значений 14 - 19 прошла успешно
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 14 - 20
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:86 - Проверка пары значений 14 - 20 прошла успешно
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 15
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 15 прошла успешно
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 15
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 15 прошла успешно
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 15
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 15 прошла успешно
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 15
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 15 прошла успешно
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 15
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 15 прошла успешно
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 15
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 15 прошла успешно
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 15
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 15 прошла успешно
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 15
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 15 прошла успешно
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 15
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 15 прошла успешно
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 10 - 15
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:86 - Проверка пары значений 10 - 15 прошла успешно
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 11 - 15
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:86 - Проверка пары значений 11 - 15 прошла успешно
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 12 - 15
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:86 - Проверка пары значений 12 - 15 прошла успешно
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 13 - 15
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:86 - Проверка пары значений 13 - 15 прошла успешно
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 14 - 15
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:86 - Проверка пары значений 14 - 15 прошла успешно
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 15 - 16
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:86 - Проверка пары значений 15 - 16 прошла успешно
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 15 - 17
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:86 - Проверка пары значений 15 - 17 прошла успешно
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 15 - 18
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:86 - Проверка пары значений 15 - 18 прошла успешно
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 15 - 19
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:86 - Проверка пары значений 15 - 19 прошла успешно
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 15 - 20
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:86 - Проверка пары значений 15 - 20 прошла успешно
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 16
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 16 прошла успешно
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 16
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 16 прошла успешно
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 16
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 16 прошла успешно
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 16
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 16 прошла успешно
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 16
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 16 прошла успешно
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 16
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 16 прошла успешно
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 16
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 16 прошла успешно
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 16
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 16 прошла успешно
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 16
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 16 прошла успешно
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 10 - 16
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:86 - Проверка пары значений 10 - 16 прошла успешно
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 11 - 16
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:86 - Проверка пары значений 11 - 16 прошла успешно
+2021-11-06 19:31:00 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 12 - 16
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:86 - Проверка пары значений 12 - 16 прошла успешно
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 13 - 16
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:86 - Проверка пары значений 13 - 16 прошла успешно
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 14 - 16
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:86 - Проверка пары значений 14 - 16 прошла успешно
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 15 - 16
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:86 - Проверка пары значений 15 - 16 прошла успешно
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 16 - 17
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:86 - Проверка пары значений 16 - 17 прошла успешно
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 16 - 18
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:86 - Проверка пары значений 16 - 18 прошла успешно
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 16 - 19
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:86 - Проверка пары значений 16 - 19 прошла успешно
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 16 - 20
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:86 - Проверка пары значений 16 - 20 прошла успешно
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 17
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 17 прошла успешно
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 17
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 17 прошла успешно
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 17
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 17 прошла успешно
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 17
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 17 прошла успешно
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 17
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 17 прошла успешно
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 17
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 17 прошла успешно
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 17
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 17 прошла успешно
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 17
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 17 прошла успешно
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 17
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 17 прошла успешно
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 10 - 17
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:86 - Проверка пары значений 10 - 17 прошла успешно
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 11 - 17
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:86 - Проверка пары значений 11 - 17 прошла успешно
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 12 - 17
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:86 - Проверка пары значений 12 - 17 прошла успешно
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 13 - 17
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:86 - Проверка пары значений 13 - 17 прошла успешно
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 14 - 17
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:86 - Проверка пары значений 14 - 17 прошла успешно
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 15 - 17
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:86 - Проверка пары значений 15 - 17 прошла успешно
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 16 - 17
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:86 - Проверка пары значений 16 - 17 прошла успешно
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 17 - 18
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:86 - Проверка пары значений 17 - 18 прошла успешно
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 17 - 19
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:86 - Проверка пары значений 17 - 19 прошла успешно
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 17 - 20
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:86 - Проверка пары значений 17 - 20 прошла успешно
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 18
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 18 прошла успешно
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 18
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 18 прошла успешно
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 18
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 18 прошла успешно
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 18
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 18 прошла успешно
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 18
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 18 прошла успешно
+2021-11-06 19:31:01 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 18
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 18 прошла успешно
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 18
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 18 прошла успешно
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 18
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 18 прошла успешно
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 18
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 18 прошла успешно
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 10 - 18
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 10 - 18 прошла успешно
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 11 - 18
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 11 - 18 прошла успешно
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 12 - 18
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 12 - 18 прошла успешно
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 13 - 18
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 13 - 18 прошла успешно
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 14 - 18
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 14 - 18 прошла успешно
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 15 - 18
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 15 - 18 прошла успешно
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 16 - 18
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 16 - 18 прошла успешно
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 17 - 18
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 17 - 18 прошла успешно
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 18 - 19
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 18 - 19 прошла успешно
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 18 - 20
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 18 - 20 прошла успешно
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 19
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 19 прошла успешно
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 19
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 19 прошла успешно
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 19
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 19 прошла успешно
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 19
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 19 прошла успешно
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 19
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 19 прошла успешно
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 19
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 19 прошла успешно
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 19
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 19 прошла успешно
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 19
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 19 прошла успешно
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 19
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 19 прошла успешно
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 10 - 19
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 10 - 19 прошла успешно
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 11 - 19
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 11 - 19 прошла успешно
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 12 - 19
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 12 - 19 прошла успешно
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 13 - 19
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 13 - 19 прошла успешно
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 14 - 19
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 14 - 19 прошла успешно
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 15 - 19
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 15 - 19 прошла успешно
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 16 - 19
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 16 - 19 прошла успешно
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 17 - 19
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 17 - 19 прошла успешно
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 18 - 19
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 18 - 19 прошла успешно
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 19 - 20
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 19 - 20 прошла успешно
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 20
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 20 прошла успешно
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 20
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 20 прошла успешно
+2021-11-06 19:31:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 20
+2021-11-06 19:31:03 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 20 прошла успешно
+2021-11-06 19:31:03 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 20
+2021-11-06 19:31:03 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 20 прошла успешно
+2021-11-06 19:31:03 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 20
+2021-11-06 19:31:03 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 20 прошла успешно
+2021-11-06 19:31:03 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 20
+2021-11-06 19:31:03 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 20 прошла успешно
+2021-11-06 19:31:03 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 20
+2021-11-06 19:31:03 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 20 прошла успешно
+2021-11-06 19:31:03 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 20
+2021-11-06 19:31:03 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 20 прошла успешно
+2021-11-06 19:31:03 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 20
+2021-11-06 19:31:03 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 20 прошла успешно
+2021-11-06 19:31:03 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 10 - 20
+2021-11-06 19:31:03 INFO  ArithmeticServiceTest:86 - Проверка пары значений 10 - 20 прошла успешно
+2021-11-06 19:31:03 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 11 - 20
+2021-11-06 19:31:03 INFO  ArithmeticServiceTest:86 - Проверка пары значений 11 - 20 прошла успешно
+2021-11-06 19:31:03 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 12 - 20
+2021-11-06 19:31:03 INFO  ArithmeticServiceTest:86 - Проверка пары значений 12 - 20 прошла успешно
+2021-11-06 19:31:03 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 13 - 20
+2021-11-06 19:31:03 INFO  ArithmeticServiceTest:86 - Проверка пары значений 13 - 20 прошла успешно
+2021-11-06 19:31:03 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 14 - 20
+2021-11-06 19:31:03 INFO  ArithmeticServiceTest:86 - Проверка пары значений 14 - 20 прошла успешно
+2021-11-06 19:31:03 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 15 - 20
+2021-11-06 19:31:03 INFO  ArithmeticServiceTest:86 - Проверка пары значений 15 - 20 прошла успешно
+2021-11-06 19:31:03 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 16 - 20
+2021-11-06 19:31:03 INFO  ArithmeticServiceTest:86 - Проверка пары значений 16 - 20 прошла успешно
+2021-11-06 19:31:03 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 17 - 20
+2021-11-06 19:31:03 INFO  ArithmeticServiceTest:86 - Проверка пары значений 17 - 20 прошла успешно
+2021-11-06 19:31:03 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 18 - 20
+2021-11-06 19:31:03 INFO  ArithmeticServiceTest:86 - Проверка пары значений 18 - 20 прошла успешно
+2021-11-06 19:31:03 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 19 - 20
+2021-11-06 19:31:03 INFO  ArithmeticServiceTest:86 - Проверка пары значений 19 - 20 прошла успешно
+2021-11-06 19:31:03 INFO  ArithmeticServiceTest:36 - Успех
+2021-11-06 20:02:00 INFO  ArithmeticServiceTest:30 - Начинаем создание настроек
+2021-11-06 20:02:00 INFO  ArithmeticServiceTest:56 - Не удалось создать настройки для следующих пар значений:
+2021-11-06 20:02:00 INFO  ArithmeticServiceTest:1259 - 1 и 1
+2021-11-06 20:02:00 INFO  ArithmeticServiceTest:1259 - 2 и 2
+2021-11-06 20:02:00 INFO  ArithmeticServiceTest:1259 - 3 и 3
+2021-11-06 20:02:00 INFO  ArithmeticServiceTest:1259 - 4 и 4
+2021-11-06 20:02:00 INFO  ArithmeticServiceTest:1259 - 5 и 5
+2021-11-06 20:02:00 INFO  ArithmeticServiceTest:1259 - 6 и 6
+2021-11-06 20:02:00 INFO  ArithmeticServiceTest:1259 - 7 и 7
+2021-11-06 20:02:00 INFO  ArithmeticServiceTest:1259 - 8 и 8
+2021-11-06 20:02:00 INFO  ArithmeticServiceTest:1259 - 9 и 9
+2021-11-06 20:02:00 INFO  ArithmeticServiceTest:1259 - 10 и 10
+2021-11-06 20:02:00 INFO  ArithmeticServiceTest:1259 - 11 и 11
+2021-11-06 20:02:00 INFO  ArithmeticServiceTest:1259 - 12 и 12
+2021-11-06 20:02:00 INFO  ArithmeticServiceTest:1259 - 13 и 13
+2021-11-06 20:02:00 INFO  ArithmeticServiceTest:1259 - 14 и 14
+2021-11-06 20:02:00 INFO  ArithmeticServiceTest:1259 - 15 и 15
+2021-11-06 20:02:00 INFO  ArithmeticServiceTest:1259 - 16 и 16
+2021-11-06 20:02:00 INFO  ArithmeticServiceTest:1259 - 17 и 17
+2021-11-06 20:02:00 INFO  ArithmeticServiceTest:1259 - 18 и 18
+2021-11-06 20:02:00 INFO  ArithmeticServiceTest:1259 - 19 и 19
+2021-11-06 20:02:00 INFO  ArithmeticServiceTest:1259 - 20 и 20
+2021-11-06 20:02:00 INFO  ArithmeticServiceTest:33 - Начинаем проверку формирования файлов
+2021-11-06 20:02:00 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 2
+2021-11-06 20:02:01 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 2 прошла успешно
+2021-11-06 20:02:01 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 3
+2021-11-06 20:02:01 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 3 прошла успешно
+2021-11-06 20:02:01 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 4
+2021-11-06 20:02:01 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 4 прошла успешно
+2021-11-06 20:02:01 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 5
+2021-11-06 20:02:01 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 5 прошла успешно
+2021-11-06 20:02:01 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 6
+2021-11-06 20:02:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 6 прошла успешно
+2021-11-06 20:02:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 7
+2021-11-06 20:02:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 7 прошла успешно
+2021-11-06 20:02:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 8
+2021-11-06 20:02:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 8 прошла успешно
+2021-11-06 20:02:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 9
+2021-11-06 20:02:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 9 прошла успешно
+2021-11-06 20:02:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 10
+2021-11-06 20:02:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 10 прошла успешно
+2021-11-06 20:02:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 11
+2021-11-06 20:02:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 11 прошла успешно
+2021-11-06 20:02:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 12
+2021-11-06 20:02:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 12 прошла успешно
+2021-11-06 20:02:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 13
+2021-11-06 20:02:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 13 прошла успешно
+2021-11-06 20:02:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 14
+2021-11-06 20:02:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 14 прошла успешно
+2021-11-06 20:02:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 15
+2021-11-06 20:02:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 15 прошла успешно
+2021-11-06 20:02:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 16
+2021-11-06 20:02:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 16 прошла успешно
+2021-11-06 20:02:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 17
+2021-11-06 20:02:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 17 прошла успешно
+2021-11-06 20:02:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 18
+2021-11-06 20:02:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 18 прошла успешно
+2021-11-06 20:02:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 19
+2021-11-06 20:02:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 19 прошла успешно
+2021-11-06 20:02:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 20
+2021-11-06 20:02:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 20 прошла успешно
+2021-11-06 20:02:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 2
+2021-11-06 20:02:02 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 2 прошла успешно
+2021-11-06 20:02:02 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 3
+2021-11-06 20:02:03 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 3 прошла успешно
+2021-11-06 20:02:03 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 4
+2021-11-06 20:02:03 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 4 прошла успешно
+2021-11-06 20:02:03 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 5
+2021-11-06 20:02:03 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 5 прошла успешно
+2021-11-06 20:02:03 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 6
+2021-11-06 20:02:03 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 6 прошла успешно
+2021-11-06 20:02:03 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 7
+2021-11-06 20:02:03 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 7 прошла успешно
+2021-11-06 20:02:03 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 8
+2021-11-06 20:02:03 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 8 прошла успешно
+2021-11-06 20:02:03 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 9
+2021-11-06 20:02:03 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 9 прошла успешно
+2021-11-06 20:02:03 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 10
+2021-11-06 20:02:03 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 10 прошла успешно
+2021-11-06 20:02:03 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 11
+2021-11-06 20:02:03 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 11 прошла успешно
+2021-11-06 20:02:03 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 12
+2021-11-06 20:02:03 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 12 прошла успешно
+2021-11-06 20:02:03 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 13
+2021-11-06 20:02:03 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 13 прошла успешно
+2021-11-06 20:02:03 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 14
+2021-11-06 20:02:03 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 14 прошла успешно
+2021-11-06 20:02:03 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 15
+2021-11-06 20:02:03 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 15 прошла успешно
+2021-11-06 20:02:03 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 16
+2021-11-06 20:02:03 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 16 прошла успешно
+2021-11-06 20:02:03 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 17
+2021-11-06 20:02:03 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 17 прошла успешно
+2021-11-06 20:02:03 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 18
+2021-11-06 20:02:03 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 18 прошла успешно
+2021-11-06 20:02:03 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 19
+2021-11-06 20:02:03 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 19 прошла успешно
+2021-11-06 20:02:03 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 20
+2021-11-06 20:02:03 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 20 прошла успешно
+2021-11-06 20:02:03 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 3
+2021-11-06 20:02:03 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 3 прошла успешно
+2021-11-06 20:02:03 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 3
+2021-11-06 20:02:03 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 3 прошла успешно
+2021-11-06 20:02:03 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 4
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 4 прошла успешно
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 5
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 5 прошла успешно
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 6
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 6 прошла успешно
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 7
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 7 прошла успешно
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 8
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 8 прошла успешно
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 9
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 9 прошла успешно
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 10
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 10 прошла успешно
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 11
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 11 прошла успешно
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 12
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 12 прошла успешно
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 13
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 13 прошла успешно
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 14
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 14 прошла успешно
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 15
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 15 прошла успешно
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 16
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 16 прошла успешно
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 17
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 17 прошла успешно
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 18
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 18 прошла успешно
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 19
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 19 прошла успешно
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 20
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 20 прошла успешно
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 4
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 4 прошла успешно
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 4
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 4 прошла успешно
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 4
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 4 прошла успешно
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 5
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 5 прошла успешно
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 6
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 6 прошла успешно
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 7
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 7 прошла успешно
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 8
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 8 прошла успешно
+2021-11-06 20:02:04 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 9
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 9 прошла успешно
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 10
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 10 прошла успешно
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 11
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 11 прошла успешно
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 12
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 12 прошла успешно
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 13
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 13 прошла успешно
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 14
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 14 прошла успешно
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 15
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 15 прошла успешно
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 16
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 16 прошла успешно
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 17
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 17 прошла успешно
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 18
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 18 прошла успешно
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 19
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 19 прошла успешно
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 20
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 20 прошла успешно
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 5
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 5 прошла успешно
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 5
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 5 прошла успешно
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 5
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 5 прошла успешно
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 5
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 5 прошла успешно
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 6
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 6 прошла успешно
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 7
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 7 прошла успешно
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 8
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 8 прошла успешно
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 9
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 9 прошла успешно
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 10
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 10 прошла успешно
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 11
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 11 прошла успешно
+2021-11-06 20:02:05 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 12
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 12 прошла успешно
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 13
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 13 прошла успешно
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 14
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 14 прошла успешно
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 15
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 15 прошла успешно
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 16
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 16 прошла успешно
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 17
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 17 прошла успешно
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 18
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 18 прошла успешно
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 19
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 19 прошла успешно
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 20
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 20 прошла успешно
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 6
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 6 прошла успешно
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 6
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 6 прошла успешно
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 6
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 6 прошла успешно
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 6
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 6 прошла успешно
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 6
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 6 прошла успешно
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 7
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 7 прошла успешно
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 8
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 8 прошла успешно
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 9
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 9 прошла успешно
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 10
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 10 прошла успешно
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 11
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 11 прошла успешно
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 12
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 12 прошла успешно
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 13
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 13 прошла успешно
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 14
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 14 прошла успешно
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 15
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 15 прошла успешно
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 16
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 16 прошла успешно
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 17
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 17 прошла успешно
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 18
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 18 прошла успешно
+2021-11-06 20:02:06 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 19
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 19 прошла успешно
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 20
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 20 прошла успешно
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 7
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 7 прошла успешно
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 7
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 7 прошла успешно
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 7
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 7 прошла успешно
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 7
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 7 прошла успешно
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 7
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 7 прошла успешно
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 7
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 7 прошла успешно
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 8
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 8 прошла успешно
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 9
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 9 прошла успешно
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 10
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 10 прошла успешно
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 11
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 11 прошла успешно
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 12
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 12 прошла успешно
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 13
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 13 прошла успешно
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 14
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 14 прошла успешно
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 15
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 15 прошла успешно
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 16
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 16 прошла успешно
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 17
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 17 прошла успешно
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 18
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 18 прошла успешно
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 19
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 19 прошла успешно
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 20
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 20 прошла успешно
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 8
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 8 прошла успешно
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 8
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 8 прошла успешно
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 8
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 8 прошла успешно
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 8
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 8 прошла успешно
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 8
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 8 прошла успешно
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 8
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 8 прошла успешно
+2021-11-06 20:02:07 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 8
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 8 прошла успешно
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 9
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 9 прошла успешно
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 10
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 10 прошла успешно
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 11
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 11 прошла успешно
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 12
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 12 прошла успешно
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 13
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 13 прошла успешно
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 14
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 14 прошла успешно
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 15
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 15 прошла успешно
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 16
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 16 прошла успешно
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 17
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 17 прошла успешно
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 18
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 18 прошла успешно
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 19
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 19 прошла успешно
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 20
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 20 прошла успешно
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 9
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 9 прошла успешно
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 9
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 9 прошла успешно
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 9
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 9 прошла успешно
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 9
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 9 прошла успешно
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 9
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 9 прошла успешно
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 9
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 9 прошла успешно
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 9
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 9 прошла успешно
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 9
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 9 прошла успешно
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 10
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 10 прошла успешно
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 11
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 11 прошла успешно
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 12
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 12 прошла успешно
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 13
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 13 прошла успешно
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 14
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 14 прошла успешно
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 15
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 15 прошла успешно
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 16
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 16 прошла успешно
+2021-11-06 20:02:08 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 17
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 17 прошла успешно
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 18
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 18 прошла успешно
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 19
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 19 прошла успешно
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 20
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 20 прошла успешно
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 10
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 10 прошла успешно
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 10
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 10 прошла успешно
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 10
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 10 прошла успешно
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 10
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 10 прошла успешно
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 10
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 10 прошла успешно
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 10
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 10 прошла успешно
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 10
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 10 прошла успешно
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 10
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 10 прошла успешно
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 10
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 10 прошла успешно
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 10 - 11
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:86 - Проверка пары значений 10 - 11 прошла успешно
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 10 - 12
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:86 - Проверка пары значений 10 - 12 прошла успешно
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 10 - 13
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:86 - Проверка пары значений 10 - 13 прошла успешно
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 10 - 14
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:86 - Проверка пары значений 10 - 14 прошла успешно
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 10 - 15
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:86 - Проверка пары значений 10 - 15 прошла успешно
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 10 - 16
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:86 - Проверка пары значений 10 - 16 прошла успешно
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 10 - 17
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:86 - Проверка пары значений 10 - 17 прошла успешно
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 10 - 18
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:86 - Проверка пары значений 10 - 18 прошла успешно
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 10 - 19
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:86 - Проверка пары значений 10 - 19 прошла успешно
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 10 - 20
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:86 - Проверка пары значений 10 - 20 прошла успешно
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 11
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 11 прошла успешно
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 11
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 11 прошла успешно
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 11
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 11 прошла успешно
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 11
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 11 прошла успешно
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 11
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 11 прошла успешно
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 11
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 11 прошла успешно
+2021-11-06 20:02:09 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 11
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 11 прошла успешно
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 11
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 11 прошла успешно
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 11
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 11 прошла успешно
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 10 - 11
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:86 - Проверка пары значений 10 - 11 прошла успешно
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 11 - 12
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:86 - Проверка пары значений 11 - 12 прошла успешно
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 11 - 13
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:86 - Проверка пары значений 11 - 13 прошла успешно
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 11 - 14
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:86 - Проверка пары значений 11 - 14 прошла успешно
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 11 - 15
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:86 - Проверка пары значений 11 - 15 прошла успешно
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 11 - 16
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:86 - Проверка пары значений 11 - 16 прошла успешно
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 11 - 17
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:86 - Проверка пары значений 11 - 17 прошла успешно
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 11 - 18
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:86 - Проверка пары значений 11 - 18 прошла успешно
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 11 - 19
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:86 - Проверка пары значений 11 - 19 прошла успешно
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 11 - 20
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:86 - Проверка пары значений 11 - 20 прошла успешно
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 12
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 12 прошла успешно
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 12
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 12 прошла успешно
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 12
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 12 прошла успешно
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 12
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 12 прошла успешно
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 12
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 12 прошла успешно
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 12
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 12 прошла успешно
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 12
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 12 прошла успешно
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 12
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 12 прошла успешно
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 12
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 12 прошла успешно
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 10 - 12
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:86 - Проверка пары значений 10 - 12 прошла успешно
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 11 - 12
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:86 - Проверка пары значений 11 - 12 прошла успешно
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 12 - 13
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:86 - Проверка пары значений 12 - 13 прошла успешно
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 12 - 14
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:86 - Проверка пары значений 12 - 14 прошла успешно
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 12 - 15
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:86 - Проверка пары значений 12 - 15 прошла успешно
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 12 - 16
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:86 - Проверка пары значений 12 - 16 прошла успешно
+2021-11-06 20:02:10 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 12 - 17
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:86 - Проверка пары значений 12 - 17 прошла успешно
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 12 - 18
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:86 - Проверка пары значений 12 - 18 прошла успешно
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 12 - 19
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:86 - Проверка пары значений 12 - 19 прошла успешно
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 12 - 20
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:86 - Проверка пары значений 12 - 20 прошла успешно
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 13
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 13 прошла успешно
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 13
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 13 прошла успешно
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 13
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 13 прошла успешно
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 13
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 13 прошла успешно
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 13
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 13 прошла успешно
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 13
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 13 прошла успешно
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 13
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 13 прошла успешно
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 13
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 13 прошла успешно
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 13
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 13 прошла успешно
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 10 - 13
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:86 - Проверка пары значений 10 - 13 прошла успешно
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 11 - 13
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:86 - Проверка пары значений 11 - 13 прошла успешно
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 12 - 13
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:86 - Проверка пары значений 12 - 13 прошла успешно
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 13 - 14
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:86 - Проверка пары значений 13 - 14 прошла успешно
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 13 - 15
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:86 - Проверка пары значений 13 - 15 прошла успешно
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 13 - 16
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:86 - Проверка пары значений 13 - 16 прошла успешно
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 13 - 17
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:86 - Проверка пары значений 13 - 17 прошла успешно
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 13 - 18
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:86 - Проверка пары значений 13 - 18 прошла успешно
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 13 - 19
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:86 - Проверка пары значений 13 - 19 прошла успешно
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 13 - 20
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:86 - Проверка пары значений 13 - 20 прошла успешно
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 14
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 14 прошла успешно
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 14
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 14 прошла успешно
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 14
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 14 прошла успешно
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 14
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 14 прошла успешно
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 14
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 14 прошла успешно
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 14
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 14 прошла успешно
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 14
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 14 прошла успешно
+2021-11-06 20:02:11 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 14
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 14 прошла успешно
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 14
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 14 прошла успешно
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 10 - 14
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:86 - Проверка пары значений 10 - 14 прошла успешно
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 11 - 14
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:86 - Проверка пары значений 11 - 14 прошла успешно
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 12 - 14
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:86 - Проверка пары значений 12 - 14 прошла успешно
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 13 - 14
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:86 - Проверка пары значений 13 - 14 прошла успешно
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 14 - 15
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:86 - Проверка пары значений 14 - 15 прошла успешно
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 14 - 16
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:86 - Проверка пары значений 14 - 16 прошла успешно
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 14 - 17
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:86 - Проверка пары значений 14 - 17 прошла успешно
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 14 - 18
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:86 - Проверка пары значений 14 - 18 прошла успешно
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 14 - 19
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:86 - Проверка пары значений 14 - 19 прошла успешно
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 14 - 20
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:86 - Проверка пары значений 14 - 20 прошла успешно
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 15
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 15 прошла успешно
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 15
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 15 прошла успешно
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 15
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 15 прошла успешно
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 15
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 15 прошла успешно
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 15
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 15 прошла успешно
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 15
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 15 прошла успешно
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 15
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 15 прошла успешно
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 15
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 15 прошла успешно
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 15
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 15 прошла успешно
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 10 - 15
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:86 - Проверка пары значений 10 - 15 прошла успешно
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 11 - 15
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:86 - Проверка пары значений 11 - 15 прошла успешно
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 12 - 15
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:86 - Проверка пары значений 12 - 15 прошла успешно
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 13 - 15
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:86 - Проверка пары значений 13 - 15 прошла успешно
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 14 - 15
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:86 - Проверка пары значений 14 - 15 прошла успешно
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 15 - 16
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:86 - Проверка пары значений 15 - 16 прошла успешно
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 15 - 17
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:86 - Проверка пары значений 15 - 17 прошла успешно
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 15 - 18
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:86 - Проверка пары значений 15 - 18 прошла успешно
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 15 - 19
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:86 - Проверка пары значений 15 - 19 прошла успешно
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 15 - 20
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:86 - Проверка пары значений 15 - 20 прошла успешно
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 16
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 16 прошла успешно
+2021-11-06 20:02:12 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 16
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 16 прошла успешно
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 16
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 16 прошла успешно
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 16
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 16 прошла успешно
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 16
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 16 прошла успешно
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 16
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 16 прошла успешно
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 16
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 16 прошла успешно
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 16
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 16 прошла успешно
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 16
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 16 прошла успешно
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 10 - 16
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:86 - Проверка пары значений 10 - 16 прошла успешно
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 11 - 16
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:86 - Проверка пары значений 11 - 16 прошла успешно
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 12 - 16
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:86 - Проверка пары значений 12 - 16 прошла успешно
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 13 - 16
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:86 - Проверка пары значений 13 - 16 прошла успешно
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 14 - 16
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:86 - Проверка пары значений 14 - 16 прошла успешно
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 15 - 16
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:86 - Проверка пары значений 15 - 16 прошла успешно
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 16 - 17
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:86 - Проверка пары значений 16 - 17 прошла успешно
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 16 - 18
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:86 - Проверка пары значений 16 - 18 прошла успешно
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 16 - 19
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:86 - Проверка пары значений 16 - 19 прошла успешно
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 16 - 20
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:86 - Проверка пары значений 16 - 20 прошла успешно
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 17
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 17 прошла успешно
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 17
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 17 прошла успешно
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 17
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 17 прошла успешно
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 17
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 17 прошла успешно
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 17
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 17 прошла успешно
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 17
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 17 прошла успешно
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 17
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 17 прошла успешно
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 17
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 17 прошла успешно
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 17
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 17 прошла успешно
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 10 - 17
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:86 - Проверка пары значений 10 - 17 прошла успешно
+2021-11-06 20:02:13 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 11 - 17
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:86 - Проверка пары значений 11 - 17 прошла успешно
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 12 - 17
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:86 - Проверка пары значений 12 - 17 прошла успешно
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 13 - 17
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:86 - Проверка пары значений 13 - 17 прошла успешно
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 14 - 17
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:86 - Проверка пары значений 14 - 17 прошла успешно
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 15 - 17
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:86 - Проверка пары значений 15 - 17 прошла успешно
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 16 - 17
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:86 - Проверка пары значений 16 - 17 прошла успешно
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 17 - 18
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:86 - Проверка пары значений 17 - 18 прошла успешно
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 17 - 19
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:86 - Проверка пары значений 17 - 19 прошла успешно
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 17 - 20
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:86 - Проверка пары значений 17 - 20 прошла успешно
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 18
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 18 прошла успешно
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 18
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 18 прошла успешно
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 18
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 18 прошла успешно
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 18
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 18 прошла успешно
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 18
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 18 прошла успешно
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 18
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 18 прошла успешно
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 18
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 18 прошла успешно
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 18
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 18 прошла успешно
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 18
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 18 прошла успешно
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 10 - 18
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:86 - Проверка пары значений 10 - 18 прошла успешно
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 11 - 18
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:86 - Проверка пары значений 11 - 18 прошла успешно
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 12 - 18
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:86 - Проверка пары значений 12 - 18 прошла успешно
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 13 - 18
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:86 - Проверка пары значений 13 - 18 прошла успешно
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 14 - 18
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:86 - Проверка пары значений 14 - 18 прошла успешно
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 15 - 18
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:86 - Проверка пары значений 15 - 18 прошла успешно
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 16 - 18
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:86 - Проверка пары значений 16 - 18 прошла успешно
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 17 - 18
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:86 - Проверка пары значений 17 - 18 прошла успешно
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 18 - 19
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:86 - Проверка пары значений 18 - 19 прошла успешно
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 18 - 20
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:86 - Проверка пары значений 18 - 20 прошла успешно
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 19
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 19 прошла успешно
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 19
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 19 прошла успешно
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 19
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 19 прошла успешно
+2021-11-06 20:02:14 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 19
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 19 прошла успешно
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 19
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 19 прошла успешно
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 19
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 19 прошла успешно
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 19
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 19 прошла успешно
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 19
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 19 прошла успешно
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 19
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 19 прошла успешно
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 10 - 19
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:86 - Проверка пары значений 10 - 19 прошла успешно
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 11 - 19
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:86 - Проверка пары значений 11 - 19 прошла успешно
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 12 - 19
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:86 - Проверка пары значений 12 - 19 прошла успешно
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 13 - 19
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:86 - Проверка пары значений 13 - 19 прошла успешно
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 14 - 19
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:86 - Проверка пары значений 14 - 19 прошла успешно
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 15 - 19
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:86 - Проверка пары значений 15 - 19 прошла успешно
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 16 - 19
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:86 - Проверка пары значений 16 - 19 прошла успешно
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 17 - 19
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:86 - Проверка пары значений 17 - 19 прошла успешно
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 18 - 19
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:86 - Проверка пары значений 18 - 19 прошла успешно
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 19 - 20
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:86 - Проверка пары значений 19 - 20 прошла успешно
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 1 - 20
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:86 - Проверка пары значений 1 - 20 прошла успешно
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 2 - 20
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:86 - Проверка пары значений 2 - 20 прошла успешно
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 3 - 20
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:86 - Проверка пары значений 3 - 20 прошла успешно
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 4 - 20
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:86 - Проверка пары значений 4 - 20 прошла успешно
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 5 - 20
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:86 - Проверка пары значений 5 - 20 прошла успешно
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 6 - 20
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:86 - Проверка пары значений 6 - 20 прошла успешно
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 7 - 20
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:86 - Проверка пары значений 7 - 20 прошла успешно
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 8 - 20
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:86 - Проверка пары значений 8 - 20 прошла успешно
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 9 - 20
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:86 - Проверка пары значений 9 - 20 прошла успешно
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 10 - 20
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:86 - Проверка пары значений 10 - 20 прошла успешно
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 11 - 20
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:86 - Проверка пары значений 11 - 20 прошла успешно
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 12 - 20
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:86 - Проверка пары значений 12 - 20 прошла успешно
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 13 - 20
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:86 - Проверка пары значений 13 - 20 прошла успешно
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 14 - 20
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:86 - Проверка пары значений 14 - 20 прошла успешно
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 15 - 20
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:86 - Проверка пары значений 15 - 20 прошла успешно
+2021-11-06 20:02:15 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 16 - 20
+2021-11-06 20:02:16 INFO  ArithmeticServiceTest:86 - Проверка пары значений 16 - 20 прошла успешно
+2021-11-06 20:02:16 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 17 - 20
+2021-11-06 20:02:16 INFO  ArithmeticServiceTest:86 - Проверка пары значений 17 - 20 прошла успешно
+2021-11-06 20:02:16 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 18 - 20
+2021-11-06 20:02:16 INFO  ArithmeticServiceTest:86 - Проверка пары значений 18 - 20 прошла успешно
+2021-11-06 20:02:16 INFO  ArithmeticServiceTest:77 - Проверяем пару значений 19 - 20
+2021-11-06 20:02:16 INFO  ArithmeticServiceTest:86 - Проверка пары значений 19 - 20 прошла успешно
+2021-11-06 20:02:16 INFO  ArithmeticServiceTest:36 - Успех
+2021-11-06 20:02:47 INFO  Bot:82 - Бот создан!
+2021-11-06 20:03:05 INFO  CommandCommand:21 - Invocation of SOAP Server - start.
+2021-11-06 20:03:06 INFO  CommandCommand:27 - Invocation of SOAP Server - end. Employee's last name: hi!!!
+2021-11-06 20:06:02 INFO  CommandCommand:21 - Invocation of SOAP Server - start.
+2021-11-06 20:06:02 INFO  CommandCommand:27 - Invocation of SOAP Server - end. Employee's last name: hi!!!
