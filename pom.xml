@@ -24,23 +24,6 @@
 
     <dependencies>
         <dependency>
-            <groupId>javax.jws</groupId>
-            <artifactId>javax.jws-api</artifactId>
-            <version>1.1</version>
-        </dependency>
-        <dependency>
-            <groupId>javax.xml.bind</groupId>
-            <artifactId>jaxb-api</artifactId>
-            <version>2.3.1</version>
-        </dependency>
-        <dependency>
-            <groupId>javax.xml.ws</groupId>
-            <artifactId>jaxws-api</artifactId>
-            <version>2.3.1</version>
-        </dependency>
-
-
-        <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>${org.projectlombok.version}</version>
@@ -113,11 +96,11 @@
                 <!--                    <annotationProcessorPaths>-->
                 <!--                        <path>-->
                 <!--                            <groupId>org.projectlombok</groupId>-->
-<!--                            <artifactId>lombok</artifactId>-->
-<!--                            <version>${org.projectlombok.version}</version>-->
-<!--                        </path>-->
-<!--                    </annotationProcessorPaths>-->
-<!--                </configuration>-->
+                <!--                            <artifactId>lombok</artifactId>-->
+                <!--                            <version>${org.projectlombok.version}</version>-->
+                <!--                        </path>-->
+                <!--                    </annotationProcessorPaths>-->
+                <!--                </configuration>-->
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -167,7 +150,7 @@
                     <wsdlUrls>
                         <url>http://localhost:8081/command?wsdl</url>
                     </wsdlUrls>
-<!--                    <packageName>com.green</packageName>-->
+                    <!--                    <packageName>com.green</packageName>-->
                     <packageName>ru.taksebe.telegram.mentalCalculation.telegram.commands.operations</packageName>
                     <keep>true</keep>
                     <sourceDestDir>${project.build.directory}/generated/src/main/java</sourceDestDir>
