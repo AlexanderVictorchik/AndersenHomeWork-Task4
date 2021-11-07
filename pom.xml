@@ -10,6 +10,7 @@
     <name>he-is-counting-us</name>
     <description>Он нас считает</description>
     <packaging>jar</packaging>
+<!--    <packaging>pom</packaging>-->
 
     <properties>
         <java.version>8</java.version>

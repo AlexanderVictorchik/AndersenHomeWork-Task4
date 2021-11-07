@@ -109,7 +109,7 @@ public final class Bot extends TelegramLongPollingCommandBot {
         String userName = Utils.getUserName(msg);
 
         String answer = nonCommand.nonCommandExecute(chatId, userName, msg.getText());
-        setAnswer(chatId, userName, answer);
+        setAnswer(chatId, answer);
     }
 
     /**
@@ -127,24 +127,23 @@ public final class Bot extends TelegramLongPollingCommandBot {
 
     /**
      * Отправка ответа
+     *
      * @param chatId id чата
-     * @param userName имя пользователя
-     * @param text текст ответа
+     * @param text   текст ответа
      */
-    private void setAnswer(Long chatId, String userName, String text) {
+    private void setAnswer(Long chatId, String text) {
         SendMessage answer = new SendMessage();
         answer.setText(text);
         answer.setChatId(chatId.toString());
         try {
             execute(answer);
         } catch (TelegramApiException e) {
-            logger.error(String.format("Ошибка %s. Сообщение, не являющееся командой. Пользователь: %s", e.getMessage(),
-                    userName));
+            logger.error(String.format("Ошибка %s. Сообщение, не являющееся командой. Пользователь: %s", e.getMessage()));
             e.printStackTrace();
         }
     }
 
-    public void sendMessage(Long chatId, String userName, String text) {
-        setAnswer(chatId, userName, text);
+    public void sendMessage(Long chatId, String text) {
+        setAnswer(chatId, text);
     }
 }

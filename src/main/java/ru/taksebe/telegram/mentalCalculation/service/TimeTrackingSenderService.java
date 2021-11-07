@@ -1,3 +1,4 @@
+/*
 package ru.taksebe.telegram.mentalCalculation.service;
 
 import javax.jws.WebMethod;
@@ -9,3 +10,4 @@ public interface TimeTrackingSenderService {
     @WebMethod
     void sendMessage(Long chatId, String userName, String text);
 }
+*/

@@ -11,6 +11,7 @@ import javax.xml.ws.Endpoint;
 import java.util.Map;
 
 public class MentalCalculationApplication {
+    public static Bot botS;
     private static final Map<String, String> getenv = System.getenv();
 
     public static void main(String[] args) {
@@ -23,10 +24,12 @@ public class MentalCalculationApplication {
             botsApi.registerBot(bot);
 
             TimeTrackingSenderServiceImpl timeTrackingSenderService = new TimeTrackingSenderServiceImpl();
-            timeTrackingSenderService.setBot(bot);
+
 
             Endpoint.publish("http://localhost:8087/sendservice",
                     new TimeTrackingSenderServiceImpl());
+
+            botS = bot;
         } catch (TelegramApiException e) {
             e.printStackTrace();
         }
