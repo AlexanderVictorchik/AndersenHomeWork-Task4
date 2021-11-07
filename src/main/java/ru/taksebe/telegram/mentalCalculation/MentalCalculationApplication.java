@@ -3,10 +3,7 @@ package ru.taksebe.telegram.mentalCalculation;
 import org.telegram.telegrambots.meta.TelegramBotsApi;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
-import ru.taksebe.telegram.mentalCalculation.service.TimeTrackingSenderService;
 import ru.taksebe.telegram.mentalCalculation.telegram.Bot;
-
-import javax.xml.ws.Endpoint;
 
 import java.util.Map;
 
@@ -16,17 +13,7 @@ public class MentalCalculationApplication {
     public static void main(String[] args) {
         try {
             TelegramBotsApi botsApi = new TelegramBotsApi(DefaultBotSession.class);
-            String botname = "trackingsender_bot";
-            String botToken = "2146386769:AAFnpu88nlw9TpWfSv_VR9g4HDPkkyTLgn4";
-            Bot bot = new Bot(botname, botToken);
-
-            botsApi.registerBot(bot);
-
-            TimeTrackingSenderService timeTrackingSenderService = new TimeTrackingSenderService();
-            timeTrackingSenderService.setBot(bot);
-
-            Endpoint.publish("http://localhost:8087/sendservice",
-                    new TimeTrackingSenderService());
+            botsApi.registerBot(new Bot("andersentimetrackingbot", "2128890774:AAEzTh0oxx7JlUmyJeRhyzkHhgfNKx1R4OM"));
         } catch (TelegramApiException e) {
             e.printStackTrace();
         }

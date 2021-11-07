@@ -23,7 +23,7 @@ import java.util.Map;
  * Собственно, бот
  */
 public final class Bot extends TelegramLongPollingCommandBot {
-    private final Logger logger = LoggerFactory.getLogger(Bot.class);
+    private Logger logger = LoggerFactory.getLogger(Bot.class);
 
     private final String BOT_NAME;
     private final String BOT_TOKEN;
@@ -142,9 +142,5 @@ public final class Bot extends TelegramLongPollingCommandBot {
                     userName));
             e.printStackTrace();
         }
-    }
-
-    public void sendAnswer(Long chatId, String userName, String text) {
-        setAnswer(chatId, userName, text);
     }
 }
