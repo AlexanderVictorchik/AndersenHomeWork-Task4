@@ -1,24 +1,11 @@
 package ru.taksebe.telegram.mentalCalculation.service;
 
-
-import ru.taksebe.telegram.mentalCalculation.telegram.Bot;
-
 import javax.jws.WebMethod;
 import javax.jws.WebService;
 
 @WebService
-public class TimeTrackingSenderService {
-    Bot bot;
-
-    public TimeTrackingSenderService() {
-    }
+public interface TimeTrackingSenderService {
 
     @WebMethod
-    public void sendTacking(Long chatId, String userName, String text) {
-
-    }
-
-    public void setBot(Bot bot) {
-        this.bot = bot;
-    }
+    void sendMessage(Long chatId, String userName, String text);
 }
