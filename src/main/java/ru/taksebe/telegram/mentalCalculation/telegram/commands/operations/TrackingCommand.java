@@ -11,6 +11,7 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.message.BasicNameValuePair;
+import org.checkerframework.checker.units.qual.A;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
@@ -21,8 +22,10 @@ import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import ru.taksebe.telegram.mentalCalculation.Utils;
 import ru.taksebe.telegram.mentalCalculation.enums.OperationEnum;
 import ru.taksebe.telegram.mentalCalculation.exceptions.WrongReportException;
+import ru.taksebe.telegram.mentalCalculation.telegram.commands.filter.CommandAuthFilter;
 import ru.taksebe.telegram.mentalCalculation.telegram.commands.operations.model.Report;
 import ru.taksebe.telegram.mentalCalculation.telegram.commands.operations.model.Task;
+import ru.taksebe.telegram.mentalCalculation.commandservice.*;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -30,21 +33,28 @@ import java.io.UnsupportedEncodingException;
 import java.util.*;
 
 public class TrackingCommand extends OperationCommand {
+    private static final ArrayList<String> ROLES = new ArrayList<>(Arrays.asList("admin"));
+    private static final java.util.logging.Logger LOGGER = java.util.logging.Logger.getGlobal();
+
     private Logger logger = LoggerFactory.getLogger(CreateTeamCommand.class);
 
     public TrackingCommand(String identifier, String description) {
         super(identifier, description);
+        CommandAuthFilter.register(identifier, Arrays.asList("user"));
     }
 
     @Override
     public void execute(AbsSender absSender, User user, Chat chat, String[] strings) {
-
         System.out.println("TrackingCommand.execute()");
         System.out.println(user);
         System.out.println(chat);
         System.out.println(Arrays.asList(strings));
 
         String userName = Utils.getUserName(user);
+
+        if (!CommandAuthFilter.authFilter(absSender, chat.getId(), this.getCommandIdentifier(), userName)) {
+            return ;
+        }
 
         try {
             saveReport(chat.getId(), strings);
@@ -57,7 +67,7 @@ public class TrackingCommand extends OperationCommand {
         }
     }
 
-    void sendAnswer(AbsSender absSender, Long chatId, String commandName, String userName) {
+    private void sendAnswer(AbsSender absSender, Long chatId, String commandName, String userName) {
         try {
             absSender.execute(new SendMessage(chatId.toString(), "Thank you, your tracking registered"));
         } catch (RuntimeException e) {
@@ -155,14 +165,15 @@ public class TrackingCommand extends OperationCommand {
         ObjectMapper mapper = new ObjectMapper();
         Report[] reports = mapper.readValue(httpresponse.getEntity().getContent(), Report[].class);
 
-        for (Report report : reports) {
-            System.out.println("report");
-            System.out.println(report);
-            for (Task task : report.getTasks()) {
-                System.out.println("task");
-                System.out.println(task);
-            }
-        }
+        System.out.println(Arrays.asList(reports));
+//        for (Report report : reports) {
+//            System.out.println("report");
+//            System.out.println(report);
+//            for (Task task : report.getTasks()) {
+//                System.out.println("task");
+//                System.out.println(task);
+//            }
+//        }
     }
 
 }
