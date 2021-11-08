@@ -17,8 +17,8 @@ public class MentalCalculationApplication {
     public static void main(String[] args) {
         try {
             TelegramBotsApi botsApi = new TelegramBotsApi(DefaultBotSession.class);
-            String botname = "trackingsender_bot";
-            String botToken = "2146386769:AAFnpu88nlw9TpWfSv_VR9g4HDPkkyTLgn4";
+            String botname = "tasktrackingbot";
+            String botToken = "2033620622:AAG3hdT89gBiwmwte4x3P4eJsYQnHf5MSt4";
             Bot bot = new Bot(botname, botToken);
 
             botsApi.registerBot(bot);

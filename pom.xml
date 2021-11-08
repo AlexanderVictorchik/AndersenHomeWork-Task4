@@ -10,7 +10,7 @@
     <name>he-is-counting-us</name>
     <description>Он нас считает</description>
     <packaging>jar</packaging>
-<!--    <packaging>pom</packaging>-->
+    <!--    <packaging>pom</packaging>-->
 
     <properties>
         <java.version>8</java.version>
@@ -147,21 +147,21 @@
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>jaxws-maven-plugin</artifactId>
                 <version>2.6</version>
-                <configuration>
-                    <wsdlUrls>
-                        <url>http://localhost:8081/command?wsdl</url>
-                    </wsdlUrls>
-                    <!--                    <packageName>com.green</packageName>-->
-                    <packageName>ru.taksebe.telegram.mentalCalculation.telegram.commands.operations</packageName>
-                    <keep>true</keep>
-                    <sourceDestDir>${project.build.directory}/generated/src/main/java</sourceDestDir>
-                </configuration>
+
                 <executions>
                     <execution>
                         <id>Generate java-code from WSDL</id>
                         <goals>
                             <goal>wsimport</goal>
                         </goals>
+                        <configuration>
+                            <wsdlUrls>
+                                <url>http://localhost:8081/command?wsdl</url>
+                            </wsdlUrls>
+                            <packageName>ru.taksebe.telegram.mentalCalculation.commandservice</packageName>
+                            <keep>true</keep>
+                            <sourceDestDir>${project.build.directory}/generated/src/main/java</sourceDestDir>
+                        </configuration>
                     </execution>
                 </executions>
             </plugin>
