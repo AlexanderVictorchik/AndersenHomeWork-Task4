@@ -1,11 +1,14 @@
 package ru.taksebe.telegram.mentalCalculation.telegram.commands.operations;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
+import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
+import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.message.BasicNameValuePair;
 import org.slf4j.Logger;
@@ -18,14 +21,13 @@ import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import ru.taksebe.telegram.mentalCalculation.Utils;
 import ru.taksebe.telegram.mentalCalculation.enums.OperationEnum;
 import ru.taksebe.telegram.mentalCalculation.exceptions.WrongReportException;
+import ru.taksebe.telegram.mentalCalculation.telegram.commands.operations.model.Report;
+import ru.taksebe.telegram.mentalCalculation.telegram.commands.operations.model.Task;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.UnsupportedEncodingException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class TrackingCommand extends OperationCommand {
     private Logger logger = LoggerFactory.getLogger(CreateTeamCommand.class);
@@ -45,8 +47,9 @@ public class TrackingCommand extends OperationCommand {
         String userName = Utils.getUserName(user);
 
         try {
-            saveReport(userName, strings);
+            saveReport(chat.getId(), strings);
             sendAnswer(absSender, chat.getId(), this.getCommandIdentifier(), userName);
+            getReport();
         } catch (IOException e) {
             e.printStackTrace();
         } catch (WrongReportException e) {
@@ -84,13 +87,13 @@ public class TrackingCommand extends OperationCommand {
         }
     }
 
-    private void saveReport(String userName, String[] strings) throws IOException, WrongReportException {
+    private void saveReport(Long userId, String[] strings) throws IOException, WrongReportException {
         HttpClient httpclient = HttpClients.createDefault();
-        HttpPost httppost = new HttpPost("http://localhost:8082/");
+        HttpPost httppost = new HttpPost("http://localhost:8083/");
 
         List<NameValuePair> params = new ArrayList<>();
 
-        params.add(new BasicNameValuePair("userName", userName));
+        params.add(new BasicNameValuePair("userId", userId.toString()));
 
         boolean nextTask = true;
         String hours = "";
@@ -138,6 +141,28 @@ public class TrackingCommand extends OperationCommand {
 //                e.printStackTrace();
 //            }
 //        }
+    }
+
+    private void getReport() throws IOException {
+        CloseableHttpClient httpclient = HttpClients.createDefault();
+
+        HttpGet httpget = new HttpGet("http://localhost:8083/");
+
+        System.out.println("Request Type: " + httpget.getMethod());
+
+        HttpResponse httpresponse = httpclient.execute(httpget);
+
+        ObjectMapper mapper = new ObjectMapper();
+        Report[] reports = mapper.readValue(httpresponse.getEntity().getContent(), Report[].class);
+
+        for (Report report : reports) {
+            System.out.println("report");
+            System.out.println(report);
+            for (Task task : report.getTasks()) {
+                System.out.println("task");
+                System.out.println(task);
+            }
+        }
     }
 
 }
