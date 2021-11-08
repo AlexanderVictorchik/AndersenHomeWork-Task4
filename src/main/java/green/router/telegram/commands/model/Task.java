@@ -1,4 +1,4 @@
-package ru.taksebe.telegram.mentalCalculation.telegram.commands.model;
+package green.router.telegram.commands.model;
 
 public class Task {
     int id;

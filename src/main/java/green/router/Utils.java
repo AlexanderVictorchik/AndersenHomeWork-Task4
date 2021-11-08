@@ -1,4 +1,4 @@
-package ru.taksebe.telegram.mentalCalculation;
+package green.router;
 
 import org.telegram.telegrambots.meta.api.objects.Message;
 import org.telegram.telegrambots.meta.api.objects.User;

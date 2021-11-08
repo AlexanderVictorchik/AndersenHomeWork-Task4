@@ -1,4 +1,4 @@
-package ru.taksebe.telegram.mentalCalculation.telegram.commands;
+package green.router.telegram.commands;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.http.HttpResponse;
@@ -10,21 +10,21 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.message.BasicNameValuePair;
-import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Chat;
 import org.telegram.telegrambots.meta.api.objects.User;
 import org.telegram.telegrambots.meta.bots.AbsSender;
-import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
-import ru.taksebe.telegram.mentalCalculation.Utils;
-import ru.taksebe.telegram.mentalCalculation.exceptions.WrongReportException;
-import ru.taksebe.telegram.mentalCalculation.telegram.commands.filter.CommandAuthFilter;
-import ru.taksebe.telegram.mentalCalculation.telegram.commands.model.Report;
+import green.router.exceptions.WrongReportException;
+import green.router.telegram.commands.filter.CommandAuthFilter;
+import green.router.telegram.commands.model.Report;
 
 import java.io.IOException;
 import java.util.*;
 
 public class TrackingCommand extends AbstractCommand {
     private static final java.util.logging.Logger LOGGER = java.util.logging.Logger.getGlobal();
+
+    private static final String SUCCESS_MESSAGE = "Thank you, your tracking registered";
+    private static final String WRONG_REPORT_FORMAT_ERROR = "Wrong report format";
 
     public TrackingCommand(String identifier, String description) {
         super(identifier, description);
@@ -38,44 +38,18 @@ public class TrackingCommand extends AbstractCommand {
         System.out.println(chat);
         System.out.println(Arrays.asList(strings));
 
-        String userName = Utils.getUserName(user);
-
-        if (!CommandAuthFilter.authFilter(absSender, chat.getId(), this.getCommandIdentifier(), userName)) {
+        if (!CommandAuthFilter.authFilter(absSender, chat.getId(), this.getCommandIdentifier())) {
             return ;
         }
 
         try {
             saveReport(chat.getId(), strings);
-            sendAnswer(absSender, chat.getId(), this.getCommandIdentifier(), userName);
+            sendAnswer(absSender, chat.getId(), SUCCESS_MESSAGE);
             getReport();
         } catch (IOException e) {
             e.printStackTrace();
         } catch (WrongReportException e) {
-            sendError(absSender, chat.getId(), this.getCommandIdentifier(), userName);
-        }
-    }
-
-    private void sendAnswer(AbsSender absSender, Long chatId, String commandName, String userName) {
-        try {
-            absSender.execute(new SendMessage(chatId.toString(), "Thank you, your tracking registered"));
-        } catch (RuntimeException e) {
-            sendError(absSender, chatId, commandName, userName);
-            e.printStackTrace();
-        } catch (TelegramApiException e) {
-            e.printStackTrace();
-        }
-    }
-
-    private void sendError(AbsSender absSender, Long chatId, String commandName, String userName) {
-        try {
-            absSender.execute(new SendMessage(chatId.toString(), "Wrong format for command /tracking.\n" +
-                    "Please, enter time spended and desctiption in following format:" +
-                    "\n'/tracking [time] [task1 description] ; [time] [task2] ...'\n" +
-                    "for example:" +
-                    "\n'/tracking 1.5 learned acid ; 2 installed tomcat'(time in hours, no quotes)")
-            );
-        } catch (TelegramApiException e) {
-            e.printStackTrace();
+            sendError(absSender, chat.getId(), WRONG_REPORT_FORMAT_ERROR);
         }
     }
 

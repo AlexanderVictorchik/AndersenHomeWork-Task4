@@ -1,13 +1,13 @@
-package ru.taksebe.telegram.mentalCalculation.telegram;
+package green.router.telegram;
 
 import org.telegram.telegrambots.extensions.bots.commandbot.TelegramLongPollingCommandBot;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Message;
 import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
-import ru.taksebe.telegram.mentalCalculation.Utils;
-import ru.taksebe.telegram.mentalCalculation.telegram.commands.TrackingCommand;
-import ru.taksebe.telegram.mentalCalculation.telegram.commands.HelpCommand;
+import green.router.Utils;
+import green.router.telegram.commands.TrackingCommand;
+import green.router.telegram.commands.HelpCommand;
 
 public final class Bot extends TelegramLongPollingCommandBot {
 

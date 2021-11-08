@@ -1,7 +1,7 @@
-package ru.taksebe.telegram.mentalCalculation.service;
+package green.router.service;
 
 
-import ru.taksebe.telegram.mentalCalculation.MentalCalculationApplication;
+import green.router.MentalCalculationApplication;
 
 import javax.jws.WebMethod;
 import javax.jws.WebService;

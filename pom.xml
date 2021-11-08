@@ -158,7 +158,7 @@
                             <wsdlUrls>
                                 <url>http://localhost:8081/command?wsdl</url>
                             </wsdlUrls>
-                            <packageName>ru.taksebe.telegram.mentalCalculation.commandservice</packageName>
+                            <packageName>green.router.commandservice</packageName>
                             <keep>true</keep>
                             <sourceDestDir>${project.build.directory}/generated/src/main/java</sourceDestDir>
                         </configuration>
