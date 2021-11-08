@@ -1,14 +1,14 @@
-package ru.taksebe.telegram.mentalCalculation.telegram.commands.operations.model;
+package ru.taksebe.telegram.mentalCalculation.telegram.commands.model;
 
 public class Task {
     int id;
-    int timeSpended;
+    float timeSpended;
     String description;
     int reportId;
 
     public Task() {}
 
-    public Task(int id, int timeSpended, String description, int reportId) {
+    public Task(int id, float timeSpended, String description, int reportId) {
         this.id = id;
         this.timeSpended = timeSpended;
         this.description = description;
@@ -19,7 +19,7 @@ public class Task {
         return id;
     }
 
-    public int getTimeSpended() {
+    public float getTimeSpended() {
         return timeSpended;
     }
 
@@ -35,7 +35,7 @@ public class Task {
         this.id = id;
     }
 
-    public void setTimeSpended(int timeSpended) {
+    public void setTimeSpended(float timeSpended) {
         this.timeSpended = timeSpended;
     }
 

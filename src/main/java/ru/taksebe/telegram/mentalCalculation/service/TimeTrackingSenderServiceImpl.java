@@ -2,8 +2,6 @@ package ru.taksebe.telegram.mentalCalculation.service;
 
 
 import ru.taksebe.telegram.mentalCalculation.MentalCalculationApplication;
-import ru.taksebe.telegram.mentalCalculation.telegram.Bot;
-import ru.taksebe.telegram.mentalCalculation.telegram.commands.operations.CreateTeamCommand;
 
 import javax.jws.WebMethod;
 import javax.jws.WebService;

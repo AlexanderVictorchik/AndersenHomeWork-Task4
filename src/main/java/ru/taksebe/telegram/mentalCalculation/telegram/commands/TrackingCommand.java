@@ -1,7 +1,6 @@
-package ru.taksebe.telegram.mentalCalculation.telegram.commands.operations;
+package ru.taksebe.telegram.mentalCalculation.telegram.commands;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.HttpClient;
@@ -11,32 +10,21 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.message.BasicNameValuePair;
-import org.checkerframework.checker.units.qual.A;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Chat;
 import org.telegram.telegrambots.meta.api.objects.User;
 import org.telegram.telegrambots.meta.bots.AbsSender;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import ru.taksebe.telegram.mentalCalculation.Utils;
-import ru.taksebe.telegram.mentalCalculation.enums.OperationEnum;
 import ru.taksebe.telegram.mentalCalculation.exceptions.WrongReportException;
 import ru.taksebe.telegram.mentalCalculation.telegram.commands.filter.CommandAuthFilter;
-import ru.taksebe.telegram.mentalCalculation.telegram.commands.operations.model.Report;
-import ru.taksebe.telegram.mentalCalculation.telegram.commands.operations.model.Task;
-import ru.taksebe.telegram.mentalCalculation.commandservice.*;
+import ru.taksebe.telegram.mentalCalculation.telegram.commands.model.Report;
 
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.UnsupportedEncodingException;
 import java.util.*;
 
-public class TrackingCommand extends OperationCommand {
-    private static final ArrayList<String> ROLES = new ArrayList<>(Arrays.asList("admin"));
+public class TrackingCommand extends AbstractCommand {
     private static final java.util.logging.Logger LOGGER = java.util.logging.Logger.getGlobal();
-
-    private Logger logger = LoggerFactory.getLogger(CreateTeamCommand.class);
 
     public TrackingCommand(String identifier, String description) {
         super(identifier, description);
@@ -71,18 +59,13 @@ public class TrackingCommand extends OperationCommand {
         try {
             absSender.execute(new SendMessage(chatId.toString(), "Thank you, your tracking registered"));
         } catch (RuntimeException e) {
-            logger.error(String.format("Ошибка %s. Команда %s. Пользователь: %s", e.getMessage(), commandName, userName));
             sendError(absSender, chatId, commandName, userName);
             e.printStackTrace();
         } catch (TelegramApiException e) {
-            logger.error(String.format("Ошибка %s. Команда %s. Пользователь: %s", e.getMessage(), commandName, userName));
             e.printStackTrace();
         }
     }
 
-    /**
-     * Отправка пользователю сообщения об ошибке
-     */
     private void sendError(AbsSender absSender, Long chatId, String commandName, String userName) {
         try {
             absSender.execute(new SendMessage(chatId.toString(), "Wrong format for command /tracking.\n" +
@@ -92,7 +75,6 @@ public class TrackingCommand extends OperationCommand {
                     "\n'/tracking 1.5 learned acid ; 2 installed tomcat'(time in hours, no quotes)")
             );
         } catch (TelegramApiException e) {
-            logger.error(String.format("Ошибка %s. Команда %s. Пользователь: %s", e.getMessage(), commandName, userName));
             e.printStackTrace();
         }
     }
@@ -139,18 +121,6 @@ public class TrackingCommand extends OperationCommand {
             System.out.println("Record is not created");
             throw new WrongReportException();
         }
-
-//        HttpEntity entity = response.getEntity();
-//
-//        if (entity != null) {
-//            try (InputStream responseContent = entity.getContent()) {
-//                byte[] bytes = new byte[100];
-//                int bytesRead = responseContent.read(bytes);
-//                System.out.println(new String(bytes, 0 ,bytesRead));
-//            } catch (IOException e) {
-//                e.printStackTrace();
-//            }
-//        }
     }
 
     private void getReport() throws IOException {

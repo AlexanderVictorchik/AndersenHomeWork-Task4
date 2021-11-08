@@ -1,4 +1,4 @@
-package ru.taksebe.telegram.mentalCalculation.telegram.commands.service;
+package ru.taksebe.telegram.mentalCalculation.telegram.commands;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -10,7 +10,7 @@ import ru.taksebe.telegram.mentalCalculation.Utils;
 /**
  * Команда "Помощь"
  */
-public class HelpCommand extends ServiceCommand {
+public class HelpCommand extends AbstractCommand {
     private Logger logger = LoggerFactory.getLogger(HelpCommand.class);
 
     public HelpCommand(String identifier, String description) {
@@ -23,7 +23,7 @@ public class HelpCommand extends ServiceCommand {
 
         logger.debug(String.format("Пользователь %s. Начато выполнение команды %s", userName,
                 this.getCommandIdentifier()));
-        sendAnswer(absSender, chat.getId(), this.getCommandIdentifier(), userName,
+        sendAnswer(absSender, chat.getId(),
                 "Я бот, который поможет Вашим детям быстро научиться считать в уме\n\n" +
                         "Я сгенерирую word-файл с заданиями, чтобы Вам не пришлось искать или придумывать их. " +
                         "Напечатайте его и попросите Вашего ребёнка решать по одной страничке в день\n\n" +
