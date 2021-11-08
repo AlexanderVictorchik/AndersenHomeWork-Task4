@@ -1,7 +1,10 @@
 package green.router.telegram.commands;
 
+import green.router.telegram.commands.filter.CommandAuthFilter;
 import org.telegram.telegrambots.extensions.bots.commandbot.commands.BotCommand;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
+import org.telegram.telegrambots.meta.api.objects.Chat;
+import org.telegram.telegrambots.meta.api.objects.User;
 import org.telegram.telegrambots.meta.bots.AbsSender;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 
@@ -12,6 +15,16 @@ abstract class AbstractCommand extends BotCommand {
     AbstractCommand(String identifier, String description) {
         super(identifier, description);
     }
+
+    @Override
+    public void execute(AbsSender absSender, User user, Chat chat, String[] strings) {
+        if (!CommandAuthFilter.authFilter(absSender, chat.getId(), this.getCommandIdentifier())) {
+            return ;
+        }
+        executeCommand(absSender, user, chat, strings);
+    }
+
+    abstract void executeCommand(AbsSender absSender, User user, Chat chat, String[] strings);
 
     void sendAnswer(AbsSender absSender, Long chatId, String answer) {
         try {

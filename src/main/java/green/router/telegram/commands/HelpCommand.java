@@ -18,7 +18,7 @@ public class HelpCommand extends AbstractCommand {
     }
 
     @Override
-    public void execute(AbsSender absSender, User user, Chat chat, String[] strings) {
+    public void executeCommand(AbsSender absSender, User user, Chat chat, String[] strings) {
         String userName = Utils.getUserName(user);
 
         logger.debug(String.format("Пользователь %s. Начато выполнение команды %s", userName,

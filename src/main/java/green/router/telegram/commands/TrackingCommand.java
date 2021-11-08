@@ -31,16 +31,11 @@ public class TrackingCommand extends AbstractCommand {
         CommandAuthFilter.register(identifier, Arrays.asList("user"));
     }
 
-    @Override
-    public void execute(AbsSender absSender, User user, Chat chat, String[] strings) {
+    void executeCommand(AbsSender absSender, User user, Chat chat, String[] strings) {
         System.out.println("TrackingCommand.execute()");
         System.out.println(user);
         System.out.println(chat);
         System.out.println(Arrays.asList(strings));
-
-        if (!CommandAuthFilter.authFilter(absSender, chat.getId(), this.getCommandIdentifier())) {
-            return ;
-        }
 
         try {
             saveReport(chat.getId(), strings);
@@ -91,8 +86,9 @@ public class TrackingCommand extends AbstractCommand {
         httppost.setEntity(new UrlEncodedFormEntity(params, "UTF-8"));
 
         HttpResponse response = httpclient.execute(httppost);
-        if (response.getStatusLine().getStatusCode() != 201) {
-            System.out.println("Record is not created");
+        int statusCode = response.getStatusLine().getStatusCode();
+        if (statusCode != 201) {
+            System.out.println("Record is not created, status code: " + statusCode);
             throw new WrongReportException();
         }
     }
