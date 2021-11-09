@@ -40,7 +40,7 @@ public final class Bot extends TelegramLongPollingCommandBot {
         Long chatId = msg.getChatId();
         String userName = Utils.getUserName(msg);
 
-        setAnswer(chatId, "Non command answer");
+        setAnswer(chatId, "Not a command");
     }
 
     private void setAnswer(Long chatId, String text) {
