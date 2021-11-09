@@ -7,8 +7,8 @@
     <groupId>green</groupId>
     <artifactId>router</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>he-is-counting-us</name>
-    <description>Он нас считает</description>
+    <name>router</name>
+    <description>Router module for task4</description>
     <packaging>jar</packaging>
     <!--    <packaging>pom</packaging>-->
 
@@ -87,22 +87,6 @@
                 </configuration>
             </plugin>
 
-
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
-                <!--                <configuration>-->
-                <!--                    <release>${java.version}</release>-->
-                <!--                    <annotationProcessorPaths>-->
-                <!--                        <path>-->
-                <!--                            <groupId>org.projectlombok</groupId>-->
-                <!--                            <artifactId>lombok</artifactId>-->
-                <!--                            <version>${org.projectlombok.version}</version>-->
-                <!--                        </path>-->
-                <!--                    </annotationProcessorPaths>-->
-                <!--                </configuration>-->
-            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
