@@ -8,6 +8,8 @@ import org.telegram.telegrambots.meta.api.objects.User;
 import org.telegram.telegrambots.meta.bots.AbsSender;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 
+import java.util.List;
+
 abstract class AbstractCommand extends BotCommand {
 
     private static String DEFAULT_MESSAGE = "Some error occured";
@@ -25,6 +27,10 @@ abstract class AbstractCommand extends BotCommand {
     }
 
     abstract void executeCommand(AbsSender absSender, User user, Chat chat, String[] strings);
+
+    void registerCommandFilter(String identifier, List<String> roles) {
+        CommandAuthFilter.register(identifier, roles);
+    }
 
     void sendAnswer(AbsSender absSender, Long chatId, String answer) {
         try {

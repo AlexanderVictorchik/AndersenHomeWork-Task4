@@ -14,7 +14,6 @@ import org.telegram.telegrambots.meta.api.objects.Chat;
 import org.telegram.telegrambots.meta.api.objects.User;
 import org.telegram.telegrambots.meta.bots.AbsSender;
 import green.router.exceptions.WrongReportException;
-import green.router.telegram.commands.filter.CommandAuthFilter;
 import green.router.telegram.commands.model.Report;
 
 import java.io.IOException;
@@ -28,7 +27,7 @@ public class TrackingCommand extends AbstractCommand {
 
     public TrackingCommand(String identifier, String description) {
         super(identifier, description);
-        CommandAuthFilter.register(identifier, Arrays.asList("user"));
+        registerCommandFilter(identifier, Arrays.asList("user", "lead"));
     }
 
     void executeCommand(AbsSender absSender, User user, Chat chat, String[] strings) {
