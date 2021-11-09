@@ -117,20 +117,21 @@ public class CommandService {
                 + user.getRole() + "|"
                 + user.getGroup();
 
-
-
-
         return stringUser;
     }
 
 
-    public static String[] getFieldsFromString(String ingoing){
+    public static String[] getFieldsFromString(String ingoing) {
         String[] result = ingoing.split("\\|");
         return result;
     }
 
     public static void main(String[] args) {
         System.out.println(getUserById("665"));
+    }
+
+    public static void save(User user) {
+        getService().save(user);
     }
 
 }
