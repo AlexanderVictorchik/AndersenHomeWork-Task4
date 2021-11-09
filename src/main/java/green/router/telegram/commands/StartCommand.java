@@ -1,34 +1,29 @@
-/*
 package green.router.telegram.commands;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import green.router.Utils;
+import green.router.commandservice.CommandService;
 import org.telegram.telegrambots.meta.api.objects.Chat;
 import org.telegram.telegrambots.meta.api.objects.User;
 import org.telegram.telegrambots.meta.bots.AbsSender;
-import ru.taksebe.telegram.mentalCalculation.Utils;
 
-*/
-/**
- * Команда "Старт"
- *//*
+public class StartCommand extends AbstractCommand {
 
-public class StartCommand extends ServiceCommand {
-    private Logger logger = LoggerFactory.getLogger(StartCommand.class);
+    private final String DEFAULT_ROLE = "user";
 
     public StartCommand(String identifier, String description) {
         super(identifier, description);
     }
 
     @Override
-    public void execute(AbsSender absSender, User user, Chat chat, String[] strings) {
-        String userName = Utils.getUserName(user);
-
-        logger.debug(String.format("Пользователь %s. Начато выполнение команды %s", userName,
-                this.getCommandIdentifier()));
-        sendAnswer(absSender, chat.getId(), this.getCommandIdentifier(), userName,
-                "Давайте начнём! Если Вам нужна помощь, нажмите /help");
-        logger.debug(String.format("Пользователь %s. Завершено выполнение команды %s", userName,
-                this.getCommandIdentifier()));
+    public void executeCommand(AbsSender absSender, User user, Chat chat, String[] strings) {
+        green.router.commandservice.User newUser = new green.router.commandservice.User();
+        newUser.setId(chat.getId().intValue());
+        newUser.setUsername(Utils.getUserName(user));
+        newUser.setFirstName(user.getFirstName());
+        newUser.setLastName(user.getLastName());
+        newUser.setRole(DEFAULT_ROLE);
+        newUser.setGroup(null);
+        CommandService.getService().save(newUser);
+        sendAnswer(absSender, chat.getId(), "Lets start, type /help for help");
     }
-}*/
+}

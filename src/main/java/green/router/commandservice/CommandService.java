@@ -134,4 +134,8 @@ public class CommandService {
         getService().save(user);
     }
 
+    public static void update(User user) {
+        getService().update(user);
+    }
+
 }

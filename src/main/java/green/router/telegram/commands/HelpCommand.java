@@ -3,7 +3,6 @@ package green.router.telegram.commands;
 import org.telegram.telegrambots.meta.api.objects.Chat;
 import org.telegram.telegrambots.meta.api.objects.User;
 import org.telegram.telegrambots.meta.bots.AbsSender;
-import green.router.Utils;
 
 public class HelpCommand extends AbstractCommand {
 
@@ -13,10 +12,11 @@ public class HelpCommand extends AbstractCommand {
 
     @Override
     public void executeCommand(AbsSender absSender, User user, Chat chat, String[] strings) {
-        String userName = Utils.getUserName(user);
-
         sendAnswer(absSender, chat.getId(),
                         "❗*Commands list*\n" +
+                        "/start to start using bot\n" +
+                        "/list to get list of users\n" +
+                        "/group to set group to user\n" +
                         "/tracking [hours1] [description1] [;] [hours2] [description2] - send a tracking\n" +
                         "/help - помощь\n\n");
     }

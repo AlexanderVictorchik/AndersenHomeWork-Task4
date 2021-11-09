@@ -1,13 +1,12 @@
 package green.router.telegram;
 
+import green.router.telegram.commands.*;
 import org.telegram.telegrambots.extensions.bots.commandbot.TelegramLongPollingCommandBot;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Message;
 import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import green.router.Utils;
-import green.router.telegram.commands.TrackingCommand;
-import green.router.telegram.commands.HelpCommand;
 
 public final class Bot extends TelegramLongPollingCommandBot {
 
@@ -18,6 +17,12 @@ public final class Bot extends TelegramLongPollingCommandBot {
         super();
         this.BOT_NAME = botName;
         this.BOT_TOKEN = botToken;
+
+        register(new StartCommand("start", "Start"));
+
+        register(new ListCommand("list", "List of users"));
+
+        register(new GroupCommand("group", "Set group"));
 
         register(new HelpCommand("help","Help"));
 
