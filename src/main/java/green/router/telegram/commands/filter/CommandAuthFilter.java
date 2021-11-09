@@ -1,10 +1,9 @@
 package green.router.telegram.commands.filter;
 
+import green.router.commandservice.CommandService;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.bots.AbsSender;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
-import green.router.commandservice.UserService;
-import green.router.commandservice.UserServiceImplementationService;
 
 import java.util.HashMap;
 import java.util.List;
@@ -25,10 +24,7 @@ public class CommandAuthFilter {
             return true;
         }
 
-        UserService userServiceImplementation = new UserServiceImplementationService()
-                .getPort(UserService.class);
-
-        green.router.commandservice.User dbUser = userServiceImplementation.findById(chatId.toString());
+        green.router.commandservice.User dbUser = CommandService.getService().findById(chatId.toString());
         System.out.println("user");
         System.out.println(dbUser.getUsername());
         if (!commandsAndRoles.get(commandName).contains(dbUser.getRole())) {
