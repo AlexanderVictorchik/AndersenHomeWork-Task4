@@ -24,6 +24,7 @@ public class TrackingCommand extends AbstractCommand {
 
     private static final String SUCCESS_MESSAGE = "Thank you, your tracking registered";
     private static final String WRONG_REPORT_FORMAT_ERROR = "Wrong report format";
+    private static final String ALREADY_REPORTED_ERROR = "You already reported today";
 
     public TrackingCommand(String identifier, String description) {
         super(identifier, description);
@@ -37,9 +38,11 @@ public class TrackingCommand extends AbstractCommand {
         System.out.println(Arrays.asList(strings));
 
         try {
+            if (alreadyReported(absSender, chat.getId())) {
+                return ;
+            }
             saveReport(chat.getId(), strings);
             sendAnswer(absSender, chat.getId(), SUCCESS_MESSAGE);
-            getReport();
         } catch (IOException e) {
             e.printStackTrace();
         } catch (WrongReportException e) {
@@ -92,7 +95,7 @@ public class TrackingCommand extends AbstractCommand {
         }
     }
 
-    private void getReport() throws IOException {
+    private boolean alreadyReported(AbsSender absSender, Long chatId) throws IOException {
         CloseableHttpClient httpclient = HttpClients.createDefault();
 
         HttpGet httpget = new HttpGet("http://localhost:8083/");
@@ -105,14 +108,13 @@ public class TrackingCommand extends AbstractCommand {
         Report[] reports = mapper.readValue(httpresponse.getEntity().getContent(), Report[].class);
 
         System.out.println(Arrays.asList(reports));
-//        for (Report report : reports) {
-//            System.out.println("report");
-//            System.out.println(report);
-//            for (Task task : report.getTasks()) {
-//                System.out.println("task");
-//                System.out.println(task);
-//            }
-//        }
+        for (Report report : reports) {
+            if (report.getUserId() == chatId) {
+                sendError(absSender, chatId, ALREADY_REPORTED_ERROR);
+                return true;
+            }
+        }
+        return false;
     }
 
 }
