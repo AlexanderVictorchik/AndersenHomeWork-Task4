@@ -38,10 +38,11 @@ public class TrackingCommand extends AbstractCommand {
         System.out.println(Arrays.asList(strings));
 
         try {
+            List<NameValuePair> params = getParams(chat.getId(), strings);
             if (alreadyReported(absSender, chat.getId())) {
                 return ;
             }
-            saveReport(chat.getId(), strings);
+            saveReport(params);
             sendAnswer(absSender, chat.getId(), SUCCESS_MESSAGE);
         } catch (IOException e) {
             e.printStackTrace();
@@ -50,10 +51,7 @@ public class TrackingCommand extends AbstractCommand {
         }
     }
 
-    private void saveReport(Long userId, String[] strings) throws IOException, WrongReportException {
-        HttpClient httpclient = HttpClients.createDefault();
-        HttpPost httppost = new HttpPost("http://localhost:8083/");
-
+    private List<NameValuePair> getParams(Long userId, String[] strings) throws WrongReportException {
         List<NameValuePair> params = new ArrayList<>();
 
         params.add(new BasicNameValuePair("userId", userId.toString()));
@@ -84,6 +82,13 @@ public class TrackingCommand extends AbstractCommand {
             throw new WrongReportException();
         }
         params.add(new BasicNameValuePair(hours, taskDescription));
+
+        return params;
+    }
+
+    private void saveReport(List<NameValuePair> params) throws IOException, WrongReportException {
+        HttpClient httpclient = HttpClients.createDefault();
+        HttpPost httppost = new HttpPost("http://localhost:8083/");
 
         httppost.setEntity(new UrlEncodedFormEntity(params, "UTF-8"));
 
