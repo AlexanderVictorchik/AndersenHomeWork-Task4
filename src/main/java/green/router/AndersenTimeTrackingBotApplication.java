@@ -10,7 +10,7 @@ import javax.xml.ws.Endpoint;
 
 import java.util.Map;
 
-public class MentalCalculationApplication {
+public class AndersenTimeTrackingBotApplication {
     public static Bot botS;
     private static final Map<String, String> getenv = System.getenv();
 

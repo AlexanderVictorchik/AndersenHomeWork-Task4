@@ -14,10 +14,12 @@ public class HelpCommand extends AbstractCommand {
     public void executeCommand(AbsSender absSender, User user, Chat chat, String[] strings) {
         sendAnswer(absSender, chat.getId(),
                         "❗*Commands list*\n" +
-                        "/start to start using bot\n" +
-                        "/list to get list of users\n" +
-                        "/group to set group to user\n" +
+                        "admin commands:\n" +
+                        "/list to get a list of users\n" +
+                        "/group to set a group to user\n" +
+                        "/role to set a role to user\n" +
+                        "user commands:\n" +
                         "/tracking [hours1] [description1] [;] [hours2] [description2] - send a tracking\n" +
-                        "/help - помощь\n\n");
+                        "/help - for this help\n\n");
     }
 }

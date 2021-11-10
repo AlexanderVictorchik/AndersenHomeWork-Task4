@@ -8,14 +8,18 @@ import org.telegram.telegrambots.meta.bots.AbsSender;
 import java.util.Arrays;
 import java.util.List;
 
-public class GroupCommand extends AbstractCommand {
-    private static final String WRONG_GROUP_FORMAT_ERROR = "Please specify user and group: /group [user_id] [group]\n" +
+public class RoleCommand extends AbstractCommand {
+    private static final String WRONG_ROLE_FORMAT_ERROR = "Please specify user and role: /role [user_id] [role]\n" +
             "To see list of users use: /list";
 
-    private static final String SUCCESS_MESSAGE = "Group is successfully changed";
+    private static final String WRONG_ROLE_ERROR = "Wrong role, list of accepted roles is: admin, lead, user\n";
+
+    private static final String SUCCESS_MESSAGE = "Role is successfully changed";
+
+    private static final List<String> POSSIBLE_ROLES = Arrays.asList("admin", "lead", "user");
 
 
-    public GroupCommand(String identifier, String description) {
+    public RoleCommand(String identifier, String description) {
         super(identifier, description);
         registerCommandFilter(identifier, Arrays.asList("admin"));
     }
@@ -24,31 +28,32 @@ public class GroupCommand extends AbstractCommand {
     public void executeCommand(AbsSender absSender, User user, Chat chat, String[] strings) {
 
         if (strings.length != 2) {
-            sendError(absSender, chat.getId(), WRONG_GROUP_FORMAT_ERROR);
+            sendError(absSender, chat.getId(), WRONG_ROLE_FORMAT_ERROR);
             return ;
         }
 
         String userId = strings[0];
         green.router.commandservice.User updatedUser = CommandService.getService().findById(userId);
 
-        String group = strings[1];
+        String role = strings[1];
 
-        if (updatedUser.getGroup() == group) {
-            sendAnswer(absSender, chat.getId(), SUCCESS_MESSAGE);
+        if (!POSSIBLE_ROLES.contains(role)) {
+            sendError(absSender, chat.getId(), WRONG_ROLE_ERROR);
             return ;
         }
 
-        if (updatedUser.getRole().equals("lead")) {
-            List<green.router.commandservice.User> users = CommandService.getService().findByGroup(group);
+        if (role.equals("lead")) {
+            List<green.router.commandservice.User> users = CommandService.getService().findByGroup(updatedUser.getGroup());
             for (green.router.commandservice.User groupUser : users) {
                 if (groupUser.getRole().equals("lead")) {
-                    updatedUser.setRole("user");
+                    groupUser.setRole("user");
+                    CommandService.getService().update(groupUser);
                     break ;
                 }
             }
         }
 
-        updatedUser.setGroup(group);
+        updatedUser.setRole(role);
 
         CommandService.getService().update(updatedUser);
 

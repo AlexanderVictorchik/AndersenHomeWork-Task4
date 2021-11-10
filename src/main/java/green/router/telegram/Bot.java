@@ -24,6 +24,8 @@ public final class Bot extends TelegramLongPollingCommandBot {
 
         register(new GroupCommand("group", "Set group"));
 
+        register(new RoleCommand("role", "Set role"));
+
         register(new HelpCommand("help","Help"));
 
         register(new TrackingCommand("tracking", "Send tracking"));
