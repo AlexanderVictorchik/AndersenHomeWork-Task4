@@ -140,7 +140,8 @@
                         </goals>
                         <configuration>
                             <wsdlUrls>
-                                <url>http://localhost:8081/command?wsdl</url>
+                                <url>http://3.13.111.5:8081/command?wsdl
+                                </url>
                             </wsdlUrls>
                             <packageName>green.router.commandservice</packageName>
                             <keep>true</keep>
