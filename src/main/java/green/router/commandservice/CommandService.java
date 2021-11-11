@@ -126,13 +126,6 @@ public class CommandService {
         return result;
     }
 
-    public static void main(String[] args) {
-        System.out.println(getUserById("665"));
-    }
-
-    public static void save(User user) {
-        getService().save(user);
-    }
 
     public static void update(User user) {
         getService().update(user);

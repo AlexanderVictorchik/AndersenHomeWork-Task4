@@ -6,7 +6,7 @@
 
     <groupId>green</groupId>
     <artifactId>task4</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>v1</version>
     <name>router</name>
     <description>Router module for task4</description>
     <packaging>jar</packaging>
@@ -150,6 +150,25 @@
                     </execution>
                 </executions>
             </plugin>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <image>
+                        <name>oblivion888/${project.artifactId}:${project.version}</name>
+                    </image>
+                    <pullPolicy>IF_NOT_PRESENT</pullPolicy>
+                </configuration>
+                <version>2.5.6</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
         </plugins>
     </build>
 </project>
