@@ -18,16 +18,13 @@ public class AndersenTimeTrackingBotApplication {
 
         try {
             TelegramBotsApi botsApi = new TelegramBotsApi(DefaultBotSession.class);
-            String botname = "andersentimetrackingbot";
-            String botToken = "2128890774:AAEzTh0oxx7JlUmyJeRhyzkHhgfNKx1R4OM";
+            String botname = "andersenTimeTrackerTestBot";
+            String botToken = "2108893485:AAGfO6IiAyQZ8ntF2fNqlzC-CEldQDGL3YI";
             Bot bot = new Bot(botname, botToken);
 
             botsApi.registerBot(bot);
 
-            TimeTrackingSenderServiceImpl timeTrackingSenderService = new TimeTrackingSenderServiceImpl();
-
-
-            Endpoint.publish("http://localhost:8087/sendservice",
+            Endpoint.publish("http://0.0.0.0:8087/sendservice",
                     new TimeTrackingSenderServiceImpl());
 
             botS = bot;
