@@ -8,7 +8,7 @@ import org.telegram.telegrambots.meta.bots.AbsSender;
 
 public class StartCommand extends AbstractCommand {
 
-    private final String DEFAULT_ROLE = "user";
+    private final String DEFAULT_ROLE = "student";
 
     public StartCommand(String identifier, String description) {
         super(identifier, description);

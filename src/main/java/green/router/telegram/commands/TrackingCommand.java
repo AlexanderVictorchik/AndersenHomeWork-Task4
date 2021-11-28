@@ -28,7 +28,7 @@ public class TrackingCommand extends AbstractCommand {
 
     public TrackingCommand(String identifier, String description) {
         super(identifier, description);
-        registerCommandFilter(identifier, Arrays.asList("user", "lead"));
+        registerCommandFilter(identifier, Arrays.asList("student", "lead"));
     }
 
     void executeCommand(AbsSender absSender, User user, Chat chat, String[] strings) {
@@ -88,7 +88,7 @@ public class TrackingCommand extends AbstractCommand {
 
     private void saveReport(List<NameValuePair> params) throws IOException, WrongReportException {
         HttpClient httpclient = HttpClients.createDefault();
-        HttpPost httppost = new HttpPost("http://3.140.167.240:8083/");
+        HttpPost httppost = new HttpPost("http://3.14.182.52:8083/");
 
         httppost.setEntity(new UrlEncodedFormEntity(params, "UTF-8"));
 
@@ -103,7 +103,7 @@ public class TrackingCommand extends AbstractCommand {
     private boolean alreadyReported(AbsSender absSender, Long chatId) throws IOException {
         CloseableHttpClient httpclient = HttpClients.createDefault();
 
-        HttpGet httpget = new HttpGet("http://3.140.167.240:8083/");
+        HttpGet httpget = new HttpGet("http://3.14.182.52:8083/");
 
         System.out.println("Request Type: " + httpget.getMethod());
 

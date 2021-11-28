@@ -25,8 +25,6 @@ public class CommandAuthFilter {
         }
 
         green.router.commandservice.User dbUser = CommandService.getService().findById(chatId.toString());
-        System.out.println("user");
-        System.out.println(dbUser.getUsername());
         if (!commandsAndRoles.get(commandName).contains(dbUser.getRole())) {
             sendUnauthorizedError(absSender, chatId);
             return false;

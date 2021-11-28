@@ -17,7 +17,7 @@ public class GroupCommand extends AbstractCommand {
 
     public GroupCommand(String identifier, String description) {
         super(identifier, description);
-        registerCommandFilter(identifier, Arrays.asList("admin"));
+        registerCommandFilter(identifier, Arrays.asList("mentor"));
     }
 
     @Override
@@ -42,7 +42,7 @@ public class GroupCommand extends AbstractCommand {
             List<green.router.commandservice.User> users = CommandService.getService().findByGroup(group);
             for (green.router.commandservice.User groupUser : users) {
                 if (groupUser.getRole().equals("lead")) {
-                    updatedUser.setRole("user");
+                    updatedUser.setRole("student");
                     break ;
                 }
             }

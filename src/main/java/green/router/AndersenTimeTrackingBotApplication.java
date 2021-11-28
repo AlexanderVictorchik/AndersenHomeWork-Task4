@@ -19,7 +19,7 @@ public class AndersenTimeTrackingBotApplication {
         try {
             TelegramBotsApi botsApi = new TelegramBotsApi(DefaultBotSession.class);
             String botname = "andersenTimeTrackerTestBot";
-            String botToken = "2108893485:AAGfO6IiAyQZ8ntF2fNqlzC-CEldQDGL3YI";
+            String botToken = "2108893485:AAH6xJK5BvtHSrCJv-NfvFt4XZQuZSZHMEs";
             Bot bot = new Bot(botname, botToken);
 
             botsApi.registerBot(bot);

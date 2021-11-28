@@ -12,16 +12,16 @@ public class RoleCommand extends AbstractCommand {
     private static final String WRONG_ROLE_FORMAT_ERROR = "Please specify user and role: /role [user_id] [role]\n" +
             "To see list of users use: /list";
 
-    private static final String WRONG_ROLE_ERROR = "Wrong role, list of accepted roles is: admin, lead, user\n";
+    private static final String WRONG_ROLE_ERROR = "Wrong role, list of accepted roles is: mentor, lead, student\n";
 
     private static final String SUCCESS_MESSAGE = "Role is successfully changed";
 
-    private static final List<String> POSSIBLE_ROLES = Arrays.asList("admin", "lead", "user");
+    private static final List<String> POSSIBLE_ROLES = Arrays.asList("mentor", "lead", "student");
 
 
     public RoleCommand(String identifier, String description) {
         super(identifier, description);
-        registerCommandFilter(identifier, Arrays.asList("admin"));
+        registerCommandFilter(identifier, Arrays.asList("mentor"));
     }
 
     @Override
@@ -46,7 +46,7 @@ public class RoleCommand extends AbstractCommand {
             List<green.router.commandservice.User> users = CommandService.getService().findByGroup(updatedUser.getGroup());
             for (green.router.commandservice.User groupUser : users) {
                 if (groupUser.getRole().equals("lead")) {
-                    groupUser.setRole("user");
+                    groupUser.setRole("student");
                     CommandService.getService().update(groupUser);
                     break ;
                 }

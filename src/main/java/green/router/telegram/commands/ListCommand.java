@@ -11,7 +11,7 @@ import java.util.List;
 public class ListCommand extends AbstractCommand {
     public ListCommand(String identifier, String description) {
         super(identifier, description);
-        registerCommandFilter(identifier, Arrays.asList("admin"));
+        registerCommandFilter(identifier, Arrays.asList("mentor"));
     }
 
     @Override
