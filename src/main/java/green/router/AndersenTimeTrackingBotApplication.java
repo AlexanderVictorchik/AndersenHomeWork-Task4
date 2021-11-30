@@ -1,5 +1,6 @@
 package green.router;
 
+import green.router.service.TaskNotifyService;
 import org.telegram.telegrambots.meta.TelegramBotsApi;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
@@ -26,6 +27,9 @@ public class AndersenTimeTrackingBotApplication {
 
             Endpoint.publish("http://0.0.0.0:8087/sendservice",
                     new TimeTrackingSenderServiceImpl());
+
+            Endpoint.publish("http://0.0.0.0:8089/notifyservice",
+                    new TaskNotifyService());
 
             botS = bot;
         } catch (TelegramApiException e) {

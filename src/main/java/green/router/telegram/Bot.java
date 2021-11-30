@@ -64,4 +64,8 @@ public final class Bot extends TelegramLongPollingCommandBot {
     public void sendMessage(Long chatId, String text) {
         setAnswer(chatId, text);
     }
+
+    public void sendNotification(Long chatmemberId, String textmsg) {
+        setAnswer(chatmemberId, textmsg);
+    }
 }
